@@ -1,3 +1,3 @@
-# [Minimal Mistakes Jekyll theme](https://mmistakes.github.io/minimal-mistakes/)
+# Descrição
 
 Website para o Laboratório de Data Science da Universidade Federal do Espírito Santo.
