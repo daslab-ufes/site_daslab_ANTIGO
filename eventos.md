@@ -1,5 +1,5 @@
 ---
-permalink: /contatos/
+permalink: /eventos/
 layout: splash
 ---
 
