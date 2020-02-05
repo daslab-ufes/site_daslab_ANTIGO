@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Sobre"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    url: /sobre/
   - title: "Membros"
     url: /membros/
   - title: "Coordenação"
@@ -10,9 +10,5 @@ main:
     url: /projetos/
   - title: "Eventos"
     url: /eventos/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
   - title: "Contato"
      url: /contatos/
