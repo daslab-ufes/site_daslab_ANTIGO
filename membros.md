@@ -11,18 +11,18 @@ Interesses de pesquisa:
 * Inferẽncia Bayesiana
 
 
-## Prof. Dr. Alessandro
+## Prof. Dr. Alessandro José Queiroz Sarnaglia
 
 Interesses de pesquisa:
 * Análise de séries temporais
-* 
+* Correlação periódica
+* Modelos PARMA.
 
-## Prof. Dr. Bartolomeu
+## Prof. Dr. Bartolomeu Zamprogno
 
 Interesses de pesquisa:
 * Análise de séries temporais
-*
-
+* Modelagem estocástica com aplicação à àrea de poluição do ar
 
 ## Prof. Dr. Bruno Ramos dos Santos
 
@@ -36,17 +36,22 @@ Interesses de pesquisa:
 
 Interesses de pesquisa:
 * Análise de séries temporais
+* Robustez
+* Outliers
 
 
-
-## Prof. Dra. Nataly
+## Prof. Dra. Nataly Adriana Jímenez Monroy
 
 Interesses de pesquisa:
 * Análise de séries temporais
+* Regressão beta
+* Dados longitudinais
 
 
-## Prof. Dra. Luciana
+## Prof. Dra. Luciana Graziela de Godoi
 
 Interesses de pesquisa:
 * Inferência Bayesiana
+* Distribuições elípticas assimétricas
+* Robustez
 
