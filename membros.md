@@ -11,7 +11,7 @@ Interesses de pesquisa:
 * Inferẽncia Bayesiana
 
 
-## Prof. Dr. Alessandro José Queiroz Sarnaglia
+## ![](alessandro.png) Prof. Dr. Alessandro José Queiroz Sarnaglia
 
 Interesses de pesquisa:
 * Análise de séries temporais
