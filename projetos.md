@@ -5,7 +5,7 @@ layout: splash
 
 ## Projeto: Métodos de aprendizado de máquinas aplicados ao desenvolvimento de curvas de crescimento fetal personalizadas para a população brasileira
 
-#### Coordenadora: Agatha Sacramento Rodrigues
+### Coordenadora: Agatha Sacramento Rodrigues
 
 O crescimento intrauterino é determinado pela combinação de fatores maternos e fetoplacentários que afetam a oferta de nutrientes e oxigênio para o feto. Outros motivos inerentes ao feto podem afetar o crescimento, como infecção fetal, malformações congênitas, anomalias cromossômicas e exposição a substâncias teratogênicas. A restrição de crescimento fetal está associada a um risco maior de atraso no desenvolvimento cognitivo, morbidades e mortalidade perinatais. Assim, é importante o acompanhamento do crescimento fetal, uma vez que alerta o obstetra para a necessidade de cuidados assistenciais adequados Fujita et al. (1999). É possı́vel avaliar o crescimento fetal ao medir múltiplas medidas biométricas por meio de exame ultrassonográfico obstétrico. Hadlock et al. (1982a,b,c,d) realizam estudos transversais em pacientes com gestação única, sem patologias feto maternas, e descrevem a correlação entre a idade gestacional e as medidas biométricas: diâmetro biparietal, circunferência cefálica, circunferência abdominal e comprimento do fêmur. Ao considerar como ponto fraco em seu estudo o fato de ser transversal, Hadlock et al. (1982a) discutem que as curvas derivadas de estudos longitudinais são mais apropriadas para avaliar o crescimento individual e representam melhor o crescimento médio de uma população (Fujita et al., 1999).
 
@@ -31,7 +31,7 @@ Como objetivos especı́ficos, são listados:
 
 ## Projeto: Observatório Obstétrico
 
-##### Coordenadora: Agatha Sacramento Rodrigues
+### Coordenadora: Agatha Sacramento Rodrigues
 
 O acesso à informação está previsto na Constituição Federal e na Declaração Universal dos Direitos Humanos. Em 2011 foi sancionada a Lei de Acesso à Informação Pública (Lei 12.527/2011) que regula o acesso a dados e informações detidas pelo governo. Dentro desse contexto, o Portal Brasileiro de Dados Abertos (PBDA) é a ferramenta que centraliza a busca e o acesso dos dados públicos. Segundo o PBDA, dados abertos é a publicação e disseminação dos dados e informações públicas de tal maneira que se permita acessar, entender e analisar. No entanto, dados sem tratamento e análise são apenas dados. Precisamos, então, analisar de maneira adequada para transformar dados em informação e permitir que esses dados tratados sejam acessı́veis à população de maneira dinâmica.
 
@@ -46,7 +46,7 @@ Por esse motivo, propomos a criação de um observatório obstétrico por meio d
 
 ## Projeto: Modelos de Regressão Quantı́lica Bayesianos para Variáveis Resposta Multidimensionais
 
-##### Coordenador: Bruno Santos
+### Coordenador: Bruno Santos
 
 Modelos de regressão são ferramentas estatı́sticas utilizadas para entender a relação entre variável resposta e covariáveis, considerando diferentes distribuições de probabilidade e usualmente descrevendo efeitos no valor médio dessa variável resposta.
 
@@ -55,7 +55,7 @@ Modelos de regressão quantı́lica se diferem dos modelos usuais de regressão 
 
 ## Projeto: Classificação de Perfis de Violência contra adolescentes no Espı́rito Santo
 
-#### Coordenadores: Nátaly Adriana Jiménez Monroy; Fabio A. Fajardo Molinares; Luciana Graziela Godoi
+### Coordenadores: Nátaly Adriana Jiménez Monroy; Fabio A. Fajardo Molinares; Luciana Graziela Godoi
 
 De acordo com o Relatório Mundial da Saúde, considera-se como violência, para fins de notificação, “o uso intencional de força fı́sica ou do poder, real ou em ameaça, contra si próprio, contra outra pessoa, ou contra um grupo ou uma comunidade que resulte ou tenha possibilidade de resultar em lesão, morte, dano psicológico, deficiência de desenvolvimento ou privação” (Krug, 2002). Ou seja, é qualquer conduta – ação ou omissão – de caráter intencional que cause ou venha a causar dano, morte, constrangimento, limitação, sofrimento fı́sico, sexual, moral, psicológico, social, polı́tico, econômico ou patrimonial.
 
