@@ -3,7 +3,7 @@ permalink: /membros/
 layout: splash
 ---
 
-## Prof. Dra. Agatha Sacramento Rodrigues
+## ![](agatha.png) Prof. Dra. Agatha Sacramento Rodrigues
 
 Interesses de pesquisa:
 * Análise de sobrevivência
@@ -18,13 +18,13 @@ Interesses de pesquisa:
 * Correlação periódica
 * Modelos PARMA.
 
-## Prof. Dr. Bartolomeu Zamprogno
+## ![](bart.png) Prof. Dr. Bartolomeu Zamprogno
 
 Interesses de pesquisa:
 * Análise de séries temporais
 * Modelagem estocástica com aplicação à àrea de poluição do ar
 
-## Prof. Dr. Bruno Ramos dos Santos
+## ![](bruno.png) Prof. Dr. Bruno Ramos dos Santos
 
 Interesses de pesquisa:
 * Regressão quantílica
