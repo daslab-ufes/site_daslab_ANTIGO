@@ -20,8 +20,6 @@ teórica.
 
 Os projetos desenvolvidos no DaSLab visam trazer soluções nas áreas de saúde, segurança pública, confiabilidade de componentes e sistema, ao combinar metodologias estatı́sticas, big data e machine learning.
 
-*****
-
 ## Objetivos
 
 Os principais objetivos do laboratório são:
