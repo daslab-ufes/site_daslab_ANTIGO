@@ -1,0 +1,39 @@
+.columnWrapper {
+    float: left;
+    width: 100%;
+    min-height: 600px;
+}
+.sidebar1 {
+  float: right;
+  width: 33%;
+  padding: 0 20px 0 10px;
+}
+.main {
+  float: left;
+  width: 66%;
+  padding: 0 20px;
+  border-left: none;
+  border-right: solid 1px rgb(153,153,153);
+}
+
+footer {
+  clear: both;  
+}
+nav ul, footer p, .contentWrapper {
+  max-width: 1200px;
+  margin: 0 auto;   
+}
+img {
+  max-width: 100%;  
+}
+img.half {
+  max-width: 50%;   
+}
+img.left {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+img.right {
+  float: right; 
+  margin: 0 0 10px 10px;
+}
