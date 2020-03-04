@@ -15,8 +15,8 @@ Interesses de pesquisa:
 
 Interesses de pesquisa:
 * Análise de séries temporais
-* Correlação periódica
-* Modelos PARMA.
+* Análise de regressão 
+* Deep learning
 
 ## ![](bart.png) Prof. Dr. Bartolomeu Zamprogno
 
