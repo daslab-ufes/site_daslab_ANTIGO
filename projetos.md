@@ -79,3 +79,10 @@ Além da análise descritiva, será considerada neste trabalho modelagem via té
 
 Estudos envolvendo dados de criminalidade fazendo uso de técnicas de machine learning já foram reportados em Berk (2012) e Berk (2013). Dessa forma, pretendemos desenvolver um algoritmo de classificação que permita a partir do perfil da vı́tima e de sua proximidade com o autor da violência identificar qual tipo de violência um adolescente está mais propenso a sofrer a partir de seu perfil.
 
+
+## Projeto: EnsinaR
+
+### Coordenadora: Agatha Sacramento Rodrigues
+
+Esse projeto de extensão visa a divulgação, ensino e treinamento da comunidade sobre o software R (https://www.r-project.org/). O software R é um software gratuito com linguagem e ambiente para análise de dados. É um dos principais software da ciência de dados, com uma comunidade muito ativa e engajada. Dentre as atividades deste projeto de extensão, destacamos os cursos de extensão em R (R para iniciantes, análise de dados em R, Machine Learning com R, visualização de dados, dashboards com R e web scraping com R) e a criação do capítulo R-Ladies Vitória (https://rladies.org/). R-Ladies é uma organização mundial cuja missão é promover a diversidade de gênero na comunidade R, ao promover meetups (encontros) e mentorias, garantindo um espaço amigável e seguro.
+

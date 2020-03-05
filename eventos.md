@@ -14,3 +14,13 @@ Os professores desse laboratório organizaram o 1º Workshop on Data Science and
 Link: [https://sites.google.com/view/wdssl2019/home](https://sites.google.com/view/wdssl2019/home)
 
 
+## Próximos eventos
+
+Minicursos previstos para o primeiro semestre:
+
+1. **Abril:** Introdução à Ciência de Dados com R.
+
+2. **Maio:** Modelagem e visualização de dados.
+
+3. **Junho:** Introdução a Machine Learning com R.
+
