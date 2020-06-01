@@ -16,11 +16,13 @@ Link: [https://sites.google.com/view/wdssl2019/home](https://sites.google.com/vi
 
 ## Próximos eventos
 
-Minicursos previstos para o primeiro semestre:
+Minicursos previstos para o segundo semestre de 2020:
 
-1. **Abril:** Introdução à Ciência de Dados com R.
+1. Introdução à Ciência de Dados com R.
 
-2. **Maio:** Modelagem e visualização de dados.
+2. Modelagem e visualização de dados.
 
-3. **Junho:** Introdução a Machine Learning com R.
+3.  Introdução a Machine Learning com R.
+
+Maiores informações em breve!
 
