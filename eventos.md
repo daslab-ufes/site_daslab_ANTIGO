@@ -20,11 +20,11 @@ A [Semana de Recepção e Integração da Estatística](https://sites.google.com
 
 Dentre as atividades realizadas, foram destaques:
 
-*[Mesa Redonda com ex-alunos](https://sites.google.com/view/calouros2020-01/programa%C3%A7%C3%A3oeventos/mesa-redonda-com-ex-alunos?authuser=1) - Ex-alunos do Departamento de Estatística abordaram temas como: mercado de trabalho para o Estatístico, ferramentas mais abrangentes e atuais no mercado, rotina de trabalho.
+* [Mesa Redonda com ex-alunos](https://sites.google.com/view/calouros2020-01/programa%C3%A7%C3%A3oeventos/mesa-redonda-com-ex-alunos?authuser=1) - Ex-alunos do Departamento de Estatística abordaram temas como: mercado de trabalho para o Estatístico, ferramentas mais abrangentes e atuais no mercado, rotina de trabalho.
 
-*[Palestras](https://sites.google.com/view/calouros2020-01/programa%C3%A7%C3%A3oeventos/palestras?authuser=1) - Profissionais de São Paulo e de Los Angeles dicutiram como é a profissão de estatístico em diversas áreas de atuação. 
+* [Palestras](https://sites.google.com/view/calouros2020-01/programa%C3%A7%C3%A3oeventos/palestras?authuser=1) - Profissionais de São Paulo e de Los Angeles dicutiram como é a profissão de estatístico em diversas áreas de atuação. 
 
-*[Campanha de cadastro de doadores de medula óssea](https://sites.google.com/view/calouros2020-01/campanha-de-doa%C3%A7%C3%A3o-de-medula-%C3%B3ssea?authuser=1) - Em parceria com o [HEMOES](https://www.es.gov.br/Contents/Item/Display/636), foi realizada uma campanha na UFES para cadastro de doadores de medula óssea, com [divulgação](https://www.facebook.com/tvufes/videos/194279915241636), informação e coleta. A campanha foi um sucesso, com quase 200 cadastros de doadores, dobrando a meta inicial da campanha. 
+* [Campanha de cadastro de doadores de medula óssea](https://sites.google.com/view/calouros2020-01/campanha-de-doa%C3%A7%C3%A3o-de-medula-%C3%B3ssea?authuser=1) - Em parceria com o [HEMOES](https://www.es.gov.br/Contents/Item/Display/636), foi realizada uma campanha na UFES para cadastro de doadores de medula óssea, com [divulgação](https://www.facebook.com/tvufes/videos/194279915241636), informação e coleta. A campanha foi um sucesso, com quase 200 cadastros de doadores, dobrando a meta inicial da campanha. 
 
 A programação completa do evento e outras informações interessantes podem ser encontradas [aqui](https://sites.google.com/view/calouros2020-01/programa%C3%A7%C3%A3oeventos/programa%C3%A7%C3%A3o?authuser=1). 
 
