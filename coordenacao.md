@@ -7,9 +7,10 @@ layout: splash
 
 A produção bibliográfica completa da Prof. Agatha pode ser acessada no [Currículo Lattes](http://lattes.cnpq.br/3445977720574534). Além da produção científica, destaca-se a organização de eventos na área de Ciência de Dados, como o [#meetingdata](http://www.datascience.ufscar.br/meetingdata/index.php) em 2018  e o 1º Workshop on Data Science and Statistical Learning [(WDDSSL)](https://sites.google.com/view/wdssl2019/home) em 2019 , em que neste a prof. Agatha foi a presidente da comissão organizadora. 
 
-A professora é a coordenadora do projeto de extensão EnsinaR, que visa disseminar, ensinar e treinar a comunidade sobre o software R, um dos principais softwares da área. 
+A professora é a coordenadora do projeto de extensão EnsinaR, que visa disseminar, ensinar e treinar a comunidade sobre o [software R] (https://www.r-project.org/), um dos principais softwares da área de Ciência de Dados. Também é cofundadora e organizadora do Capítulo de Vitória da [R-Ladies](https://rladies.org/), uma organização mundial cuja missão é promover a diversidade e equidade de gênero na comunidade R. Mais informações em [https://github.com/rladies/meetup-presentations_vitoria](https://github.com/rladies/meetup-presentations_vitoria) e em [https://github.com/rladies/meetup-presentations_vitoria](https://github.com/rladies/meetup-presentations_vitoria). 
 
-A prof. Agatha tem trabalhado há muitos anos com pesquisadora Estatística em diferentes grupos de pesquisa da área da saúde, propondo soluções e metodologias estatísticas para os problemas práticos da área. Vale ressaltar um projeto de 2018 realizado no Departamento de Radiologia da USP no qual o interesse consistia em aplicar técnicas de aprendizado de máquina para analisar dados radiômicos. Como resultado do envolvimento em grupos multidisciplinares, a professora é co-autora de mais de 15 artigos de periódicos nas áreas de saúde.
+É doutora em Estatística pelo Instituto de Matemática e Estatística da Universidade de São Paulo (2018). Possui graduação em Estatística pela Universidade Federal de São Carlos (2010) e mestrado em Estatística pelo Instituto de Matemática e Estatística da Universidade de São Paulo (2013). Tem experiência na área de Probabilidade e Estatística, com ênfase em Análise de Confiabilidade, Análise de Sobrevivência e Bioestatística. 
+
 
 
 
