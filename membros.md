@@ -22,11 +22,15 @@ Interesses de pesquisa:
 * Análise de regressão 
 * Deep learning
 
+Contato: alessandro.sarnaglia@ufes.br
+
 ## ![](bart.png) Prof. Dr. Bartolomeu Zamprogno
 
 Interesses de pesquisa:
 * Análise de séries temporais
 * Modelagem estocástica com aplicação à àrea de poluição do ar
+
+Contato: bartolomeu.zamprogno@ufes.br
 
 ## ![](bruno.png) Prof. Dr. Bruno Ramos dos Santos
 
@@ -35,6 +39,7 @@ Interesses de pesquisa:
 * Inferência Bayesiana
 * Visualização de dados
 
+Contato: bruno.santos.31@ufes.br
 
 ## Prof. Dr. Fabio Fajardo Molinares
 
@@ -43,6 +48,7 @@ Interesses de pesquisa:
 * Robustez
 * Outliers
 
+Contato: fabio.molinares@ufes.br
 
 ## Prof. Dra. Nataly Adriana Jímenez Monroy
 
@@ -51,6 +57,7 @@ Interesses de pesquisa:
 * Regressão beta
 * Dados longitudinais
 
+Contato: nataly.monroy@ufes.br
 
 ## Prof. Dra. Luciana Graziela de Godoi
 
@@ -59,3 +66,4 @@ Interesses de pesquisa:
 * Distribuições elípticas assimétricas
 * Robustez
 
+Contato: luciana.godoi@ufes.br
