@@ -13,6 +13,7 @@ Os professores desse laboratório organizaram o 1º Workshop on Data Science and
 
 Link: [https://sites.google.com/view/wdssl2019/home](https://sites.google.com/view/wdssl2019/home)
 
+
 # Semana de Recepção e Integração da Estatística UFES 2020
 
 A [Semana de Recepção e Integração da Estatística](https://sites.google.com/view/calouros2020-01/home?authuser=1) foi realizada entre os dias 2 a 6 de março de 2020 como uma das medidas estratégicas para mitigar a evasão do curso, recepcionar os calouros de maneira acolhedora e informativa e também motivar os alunos veteranos. O evento foi organizado por uma [comissão](https://sites.google.com/view/calouros2020-01/comiss%C3%A3o-organizadora?authuser=1) formada por alunos e pelos professores do DaSLab Agatha Rodrigues, Bruno Santos e Bartolomeu Zamprogno. 
@@ -27,7 +28,8 @@ Dentre as atividades realizadas, foram destaques:
 
 A programação completa do evento e outras informações interessantes podem ser encontradas [aqui](https://sites.google.com/view/calouros2020-01/programa%C3%A7%C3%A3oeventos/programa%C3%A7%C3%A3o?authuser=1). 
 
-## Próximos eventos 
+
+# Próximos eventos 
 
 ### Projeto de extensão EnsinaR: Minicursos previstos para o segundo semestre de 2020.
 
