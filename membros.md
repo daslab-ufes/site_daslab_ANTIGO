@@ -6,9 +6,10 @@ layout: splash
 ## ![](agatha.png) Prof. Dra. Agatha Sacramento Rodrigues
 
 Interesses de pesquisa:
-* Análise de sobrevivência
+* Análise de sobrevivência e de confiabilidade
+* Bioestatística
 * Aprendizado de máquina
-* Inferẽncia Bayesiana
+* Inferência Bayesiana
 
 
 ## ![](alessandro.png) Prof. Dr. Alessandro José Queiroz Sarnaglia
