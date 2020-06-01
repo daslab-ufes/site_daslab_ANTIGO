@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Interpretabilidade em modelos preditivos – discussões iniciais na área da saúde"
 ---
 
