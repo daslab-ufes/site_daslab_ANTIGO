@@ -29,7 +29,8 @@ Como objetivos especı́ficos, são listados:
 - Criar um aplicativo para utilização dos resultados do modelo escolhido, numa interface amigável, com o intuito de auxiliar na decisão do médico. Por meio do aplicativo, será possı́vel entrar com os dados de um paciente e ter como saı́da curvas de crescimento fetal para as medidas ultrassonográficas e peso fetal estimado.
 - Realizar uma segunda aprendizagem ao utilizar os dados imputados dos usuários de outros centros públicos e privados do Brasil e melhorar o algoritmo com os dados novos e também com outras variáveis inputs, como a região do Brasil.
 
-* Hadlock, F. P., Deter, R. L., Harrist, R. B., & Park, S. K. (1982). Fetal biparietal diameter: a critical re‐evaluation of the relation to menstrual age by means of real‐time ultrasound. Journal of ultrasound in Medicine, 1(3), 97-104.
+#### Referência 
+Hadlock, F. P., Deter, R. L., Harrist, R. B., & Park, S. K. (1982). Fetal biparietal diameter: a critical re‐evaluation of the relation to menstrual age by means of real‐time ultrasound. Journal of ultrasound in Medicine, 1(3), 97-104.
 
 ## Projeto: Observatório Obstétrico
 
