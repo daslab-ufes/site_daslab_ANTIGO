@@ -9,7 +9,7 @@ A produção bibliográfica completa da Prof. Agatha pode ser acessada no [Curr�
 
 A professora é a coordenadora do projeto de extensão EnsinaR, que visa disseminar, ensinar e treinar a comunidade sobre o software R, um dos principais softwares da área. 
 
-A prof. Agatha tem trabalhado há muitos anos com pesquisadora Estatística em diferentes grupos de pesquisa da área da saúde, em um grupo multidisciplinar, propondo soluções e metodologias estatísticas para os problemas práticos da área. Vale ressaltar um projeto de 2018 realizado no Departamento de Radiologia da USP no qual o interesse consistia em aplicar técnicas de aprendizado de máquina para analisar dados radiômicos. Como resultado do envolvimento em grupos multidisciplinares, a professora é co-autora de 14 artigos de periódicos nas áreas de saúde.
+A prof. Agatha tem trabalhado há muitos anos com pesquisadora Estatística em diferentes grupos de pesquisa da área da saúde, propondo soluções e metodologias estatísticas para os problemas práticos da área. Vale ressaltar um projeto de 2018 realizado no Departamento de Radiologia da USP no qual o interesse consistia em aplicar técnicas de aprendizado de máquina para analisar dados radiômicos. Como resultado do envolvimento em grupos multidisciplinares, a professora é co-autora de mais de 15 artigos de periódicos nas áreas de saúde.
 
 
 
