@@ -13,9 +13,7 @@ subáreas de aprendizado estatı́stico, modelagem estatı́stica, classificaç�
 
 O aumento constante da capacidade de armazenamento e processamento de dados disponibiliza uma grande quantidade de informações. Nesse contexto, a exploração e análise de dados exige não apenas métodos estatı́sticos, mas também técnicas computacionais. Portanto, a Ciência de Dados vincula naturalmente as áreas mencionadas a fim de fornecer soluções para os desafios enfrentados por outras áreas, como Astronomia, Biologia, Epidemiologia, Financeiro, Linguı́stica, Industrial, Medicina, Segurança Pública, entre outras.
 
-O Laboratório de Ciência de Dados (DaSLab) visa promover a discussão, apre-
-sentar o desenvolvimento e as potencialidades e oxigenar a área de Ciência de Da-
-dos, enfatizando o elemento multidisciplinar e fundamental da pesquisa aplicada e
+O Laboratório de Ciência de Dados (DaSLab) visa promover a discussão, apresentar o desenvolvimento e as potencialidades e oxigenar a área de Ciência de Dados, enfatizando o elemento multidisciplinar e fundamental da pesquisa aplicada e
 teórica. 
 
 Os projetos desenvolvidos no DaSLab visam trazer soluções nas áreas de saúde, segurança pública, confiabilidade de componentes e sistema, ao combinar metodologias estatı́sticas, big data e machine learning.
