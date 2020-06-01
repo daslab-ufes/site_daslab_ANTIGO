@@ -11,6 +11,7 @@ Interesses de pesquisa:
 * Aprendizado de máquina
 * Inferência Bayesiana
 
+Contato: agatha.rodrigues@ufes.br
 
 ## ![](alessandro.png) Prof. Dr. Alessandro José Queiroz Sarnaglia
 
