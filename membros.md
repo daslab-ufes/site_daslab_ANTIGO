@@ -12,6 +12,7 @@ Interesses de pesquisa:
 * Inferência Bayesiana
 
 Contato: agatha.rodrigues@ufes.br
+
 GitHub: [https://github.com/agathasr](https://github.com/agathasr)
 
 ## ![](alessandro.png) Prof. Dr. Alessandro José Queiroz Sarnaglia
