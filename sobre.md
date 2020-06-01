@@ -8,10 +8,9 @@ layout: splash
 Ciência de dados é uma área interdisciplinar voltada para o estudo e a análise de
 dados que visa a extração de conhecimento ou insights para possı́veis tomadas de
 decisão. Além da Estatı́stica, as soluções apresentadas empregam metodologias de
-diferentes áreas da Ciência da Computação, Matemática, Economia, Engenharia e
-subáreas de aprendizado estatı́stico, modelagem estatı́stica, classificação, mineração de dados, inteligência artificial e modelos preditivos.
+diferentes áreas da Ciência da Computação, Matemática, Economia e Engenharia.
 
-O aumento constante da capacidade de armazenamento e processamento de dados disponibiliza uma grande quantidade de informações. Nesse contexto, a exploração e análise de dados exige não apenas métodos estatı́sticos, mas também técnicas computacionais. Portanto, a Ciência de Dados vincula naturalmente as áreas mencionadas a fim de fornecer soluções para os desafios enfrentados por outras áreas, como Astronomia, Biologia, Epidemiologia, Financeiro, Linguı́stica, Industrial, Medicina, Segurança Pública, entre outras.
+O aumento constante da capacidade de armazenamento e processamento de dados disponibiliza uma grande quantidade de informações. Nesse contexto, a exploração e análise de dados exigem não apenas métodos estatı́sticos, mas também técnicas computacionais. Portanto, a Ciência de Dados vincula naturalmente as áreas mencionadas a fim de fornecer soluções para os desafios enfrentados por outras áreas, como Astronomia, Biologia, Epidemiologia, Financeiro, Linguı́stica, Industrial, Medicina, Segurança Pública, entre outras.
 
 O Laboratório de Ciência de Dados (DaSLab) visa promover a discussão, apresentar o desenvolvimento e as potencialidades e oxigenar a área de Ciência de Dados, enfatizando o elemento multidisciplinar e fundamental da pesquisa aplicada e
 teórica. 
