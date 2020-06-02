@@ -30,7 +30,7 @@ Esse texto é o primeiro em uma série de outros que serão publicados nesse blo
 
 [1] da Fonseca, E. B., Bittar, R. E., Carvalho, M. H., & Zugaib, M. (2003). Prophylactic administration of progesterone by vaginal suppository to reduce the incidence of spontaneous preterm birth in women at increased risk: a randomized placebo-controlled double-blind study. *American journal of obstetrics and gynecology*, 188(2), 419-424.
 
-[2] Hernandez, W. R., Francisco, R. P., Bittar, R. E., Gomez, U. T., Zugaib, M., & Brizot, M. L. (2017). Effect of vaginal progesterone in tocolytic therapy during preterm labor in twin pregnancies: Secondary analysis of a placebo‐controlled randomized trial. *Journal of Obstetrics and Gynaecology Research*, 43(10), 1536-1542.
+[2] Romero, R., Nicolaides, K., Conde-Agudelo, A., Tabor, A., O'Brien, J. M., Cetingoz, E., ... & Soma-Pillay, P. (2012). Vaginal progesterone in women with an asymptomatic sonographic short cervix in the midtrimester decreases preterm delivery and neonatal morbidity: a systematic review and metaanalysis of individual patient data. *American journal of obstetrics and gynecology*, 206(2), 124-e1.
 
 [3] Souza, A. C., Costa, R. A., Paganoti, C. F., Rodrigues, A. S., Zugaib, M., Hadar, E., Moshe, H. & Francisco, R. P. (2019). Can we stratify the risk for insulin need in women diagnosed early with gestational diabetes by fasting blood glucose?. *The Journal of Maternal-Fetal & Neonatal Medicine*, 32(12), 2036-2041.
 
