@@ -1,0 +1,23 @@
+Agatha Rodrigues:
+  name        : "Agatha S. Rodrigues"
+  bio         : "Professora Adjunta do Dpto de Estatística - UFES"
+  avatar      : "/assets/images/agatha.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:agatha.rodrigues@ufes.br"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/agathasr"
+
+Bruno Santos:
+  name        : "Bruno Santos"
+  bio         : "Professor Adjunto do Dpto de Estatística - UFES"
+  avatar      : "/assets/images/bruno.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:bruno.santos.31@ufes.br"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/brsantos86"

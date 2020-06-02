@@ -3,7 +3,7 @@ permalink: /membros/
 layout: splash
 ---
 
-## ![](agatha.png) Prof. Dra. Agatha Sacramento Rodrigues
+## ![](/assets/images/agatha.png) Prof. Dra. Agatha Sacramento Rodrigues
 
 Interesses de pesquisa:
 * Análise de sobrevivência e de confiabilidade
@@ -15,7 +15,7 @@ Contato: agatha.rodrigues@ufes.br
 
 GitHub: [https://github.com/agathasr](https://github.com/agathasr)
 
-## ![](alessandro.png) Prof. Dr. Alessandro José Queiroz Sarnaglia
+## ![](/assets/images/alessandro.png) Prof. Dr. Alessandro José Queiroz Sarnaglia
 
 Interesses de pesquisa:
 * Análise de séries temporais
@@ -24,7 +24,7 @@ Interesses de pesquisa:
 
 Contato: alessandro.sarnaglia@ufes.br
 
-## ![](bart.png) Prof. Dr. Bartolomeu Zamprogno
+## ![](/assets/images/bart.png) Prof. Dr. Bartolomeu Zamprogno
 
 Interesses de pesquisa:
 * Análise de séries temporais
@@ -32,7 +32,7 @@ Interesses de pesquisa:
 
 Contato: bartolomeu.zamprogno@ufes.br
 
-## ![](bruno.png) Prof. Dr. Bruno Ramos dos Santos
+## ![](/assets/images/bruno.png) Prof. Dr. Bruno Ramos dos Santos
 
 Interesses de pesquisa:
 * Regressão quantílica

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Interpretabilidade em modelos preditivos – discussões iniciais na área da saúde"
-author: "Agatha S. Rodrigues"
+author: Agatha Rodrigues
 ---
 
 Com o aumento da capacidade de armazenamento e processamento de dados, sua exploração e análise exigem não apenas métodos estatísticos, mas também técnicas computacionais. A área de *Machine Learning* (ML - Aprendizado com Máquina ou Automático) é um resultado dessa interação entre a Estatística e a Computação, utilizando modelos estatísticos combinados com algoritmos computacionais para extrair informação de conjuntos de dados com muitas observações e/ou variáveis. ML pode ser supervisionado ou não supervisionado e consideramos aqui ML supervisionado, o qual engloba modelos para estudar o valor de uma variável resposta (*output* ou desfecho) a partir de variáveis preditoras (*input*, variáveis explicativas ou covariáveis).
