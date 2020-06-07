@@ -2,7 +2,6 @@
 layout: single
 title:  "Construindo _playlist_s no Spotify a partir de modelos probabilísticos"
 author: Bruno Santos
-published: false
 ---
 
 Diante do atual cenário de isolamente durante a quarentena devido à
