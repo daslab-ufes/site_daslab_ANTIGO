@@ -4,11 +4,11 @@ title:  "Construindo playlists no Spotify a partir de modelos probabilísticos"
 author: Bruno Santos
 ---
 
-Diante do atual cenário de isolamente durante a quarentena devido à
+Diante do atual cenário de isolamento durante a quarentena devido à
 pandemia da Covid-19, é interessante pensarmos em maneiras de contornar
 alguns dos desprazeres de estarmos longe dos nossos amigos e familiares.
 Para mim uma das soluções para resolver esse probleminha é *ouvir uma
-boa música*. Embora a definição de “música boa” possa variar de pessoa
+boa música*. Embora a definição de “boa música” possa variar de pessoa
 pra pessoa, nesse *post* vamos utilizar uma informação objetiva sobre
 músicas “felizes”, conforme uma variável que é fornecida pela API do
 Spotify.
@@ -216,26 +216,26 @@ coef(modelo)
 ```
 
     ##       (Intercept)      escore_danca    escore_energia escore_sonoridade 
-    ##       -0.12804166        0.69913410        1.28755507       -0.04244425 
+    ##       -0.12345838        0.69537783        1.11227711        0.14325884 
     ##       escore_fala   escore_acustica    escore_ao_vivo             tempo 
-    ##        0.45991794        0.58382294        0.21565709       -0.23586364 
+    ##        0.26609762        0.69828862        0.19340754       -0.01454859 
     ##        duracao_ms 
-    ##        0.54225470
+    ##        0.47230439
 
 ``` r
 posterior_interval(modelo, prob = 0.95)
 ```
 
-    ##                          2.5%     97.5%
-    ## (Intercept)       -0.60323538 0.3354650
-    ## escore_danca       0.16201878 1.2524236
-    ## escore_energia     0.43865507 2.1920809
-    ## escore_sonoridade -0.78464913 0.6933824
-    ## escore_fala       -0.12191961 1.0788142
-    ## escore_acustica   -0.06622352 1.2635141
-    ## escore_ao_vivo    -0.25069567 0.7139030
-    ## tempo             -0.77413815 0.2894959
-    ## duracao_ms         0.06846657 1.0744407
+    ##                           2.5%     97.5%
+    ## (Intercept)       -0.582274955 0.3213192
+    ## escore_danca       0.146963038 1.2945369
+    ## escore_energia     0.326135738 1.9850818
+    ## escore_sonoridade -0.510518128 0.8271121
+    ## escore_fala       -0.244289928 0.8136716
+    ## escore_acustica    0.080733371 1.3837728
+    ## escore_ao_vivo    -0.238027585 0.6713185
+    ## tempo             -0.550411657 0.5339127
+    ## duracao_ms        -0.002269076 0.9785030
 
 Tendo em vista os intervalos de credibilidade, diríamos que os
 parâmetros associados às covariáveis `escore_danca`, `escore_energia` e
@@ -381,18 +381,18 @@ top_10 <- musicas_dia_faxina %>%
 knitr::kable(top_10)
 ```
 
-| artist\_full                           | tracks                                               |  probabilidades|
-|:---------------------------------------|:-----------------------------------------------------|---------------:|
-| Seu Jorge                              | Amiga Da Minha Mulher                                |       0.9737469|
-| Henrique & Diego feat. Dennis DJ       | Malbec (Part. Dennis Dj) (feat. Dennis DJ) - Ao Vivo |       0.9030628|
-| Nego do Borel feat. Maiara & Maraisa   | Esqueci Como Namora (feat. Maiara & Maraisa)         |       0.8813001|
-| Gloria Groove                          | Coisa Boa                                            |       0.8663364|
-| IZA feat. Rincon Sapiência             | Ginga (Participação especial de Rincon Sapiência)    |       0.8561442|
-| Thiaguinho feat. Ludmilla              | Só Vem! - Ao Vivo                                    |       0.8403033|
-| MC Guime feat. Emicida                 | País do Futebol                                      |       0.8283078|
-| João Lucas & Marcelo feat. MC K9       | Louquinha (feat. MC K9)                              |       0.8056123|
-| POCAH                                  | Não sou obrigada                                     |       0.7687140|
-| João Neto & Frederico feat. MC Kevinho | Cê Acredita                                          |       0.7676099|
+| artist\_full                         | tracks                                               |  probabilidades|
+|:-------------------------------------|:-----------------------------------------------------|---------------:|
+| Seu Jorge                            | Amiga Da Minha Mulher                                |       0.9702526|
+| Henrique & Diego feat. Dennis DJ     | Malbec (Part. Dennis Dj) (feat. Dennis DJ) - Ao Vivo |       0.9135900|
+| Gloria Groove                        | Coisa Boa                                            |       0.8702021|
+| Thiaguinho feat. Ludmilla            | Só Vem! - Ao Vivo                                    |       0.8378998|
+| IZA feat. Rincon Sapiência           | Ginga (Participação especial de Rincon Sapiência)    |       0.8274471|
+| POCAH                                | Não sou obrigada                                     |       0.8250744|
+| MC Loma e As Gêmeas Lacração         | Envolvimento                                         |       0.8221154|
+| Atitude 67                           | Cerveja De Garrafa (Fumaça Que Eu Faço) - Ao Vivo    |       0.8194855|
+| Maiara & Maraisa                     | 10% - Ao Vivo                                        |       0.8141347|
+| Nego do Borel feat. Maiara & Maraisa | Esqueci Como Namora (feat. Maiara & Maraisa)         |       0.8104371|
 
 Essas seriam então as dez músicas com maiores probabilidades segundo o
 modelo construído anteriormente. Poderíamos fazer algumas perguntas pra
