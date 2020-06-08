@@ -26,9 +26,9 @@ livremente aqui:
 
 Considerando então essa informação de valência (segundo tradução
 própria) de uma amostra de músicas, vamos construir um modelo
-estatístico para tentar identificar características (ou covariáveis) que
-ajudem a explicar essa *positividade* nas músicas para então construir
-uma nova *playlist*.
+estatístico para tentar identificar características (ou covariáveis)
+que ajudem a explicar essa *positividade* nas músicas para então
+construir uma nova *playlist*.
 
 Vamos considerar os seguintes pacotes para essa análise:
 
@@ -56,11 +56,11 @@ sugestão de reprodução desse exercício para músicas brasileiras, por
 exemplo.
 
 Para estimarmos nosso modelo vamos considerar somente uma amostra de
-músicas. Com o intuito de utilizarmos músicas mais recentes e que tenham
-maior alcance, utilizaremos as 100 músicas da lista da [“*Billboard Hot
-100*”](https://www.billboard.com/charts/hot-100), que é um importante
-referencial no mundo da música. Nossos dados consideram as musicas dessa
-lista obtidas no dia 05/06/2020.
+músicas. Com o intuito de utilizarmos músicas mais recentes e que
+tenham maior alcance, utilizaremos as 100 músicas da lista da
+[“*Billboard Hot 100*”](https://www.billboard.com/charts/hot-100), que
+é um importante referencial no mundo da música. Nossos dados consideram
+as musicas dessa lista obtidas no dia 05/06/2020.
 
 ``` r
 top_songs_billboard <- 
@@ -108,7 +108,7 @@ ggplot(todas_musicas) + theme_minimal() +
   geom_density(aes(x = valencia), adjust = 1/3) 
 ```
 
-![](/assets/images/unnamed-chunk-6-1.png)
+![](spotify_post_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 Tendo em vista a dificuldade de se modelar a variabilidade dessa
 variável resposta, embora existam opções como a regressão beta, i.e.,
@@ -139,18 +139,31 @@ anterior a esse, temos o interesse em construir um modelo preditivo -
 supondo a construção de uma *playlist* ao fim dessa análise, porém vamos
 nos ater a um modelo explicável. Essa escolha é simplesmente por
 simplificação do problema, embora em uma oportunidade futura podemos
-rever essa escolha. Temos então nossa variável resposta, $Y$,
-$Y = 1$, se a música é mais positiva, e Y = 0 caso contrário.
+rever essa escolha. Temos então para a variável resposta ![Y
+= 1](https://latex.codecogs.com/png.latex?Y%20%3D%201 "Y = 1"), se a
+música é mais positiva, e ![Y
+= 0](https://latex.codecogs.com/png.latex?Y%20%3D%200 "Y = 0"), caso
+contrário.
 
 Dizemos aqui que a música é classificada como mais positiva porque
 fizemos essa quebra no valor hipótetico 0,5, inicialmente. Supomos que
-*P*(*Y* = 1) = *p* e utilizando o modelo de regressão logístico podemos
-escrever essa probabilidade como $p = \\frac{e^{X\\beta}}{1 + e^{X\\beta}},$
- em que colocamos na nossa matriz de planejamento X nossas variáveis
-preditivas. Nosso interesse é estimar o vetor *β* segundo a nossa
-amostra de 100 músicas. Antes de estimar o modelo, podemos checar se as
-variáveis preditoras (após uma padronização dos seus valores) possuem
-algum tipo de correlação alta entre si, fazendo por exemplo:
+![P(Y = 1) =
+p](https://latex.codecogs.com/png.latex?P%28Y%20%3D%201%29%20%3D%20p
+"P(Y = 1) = p") e utilizando o modelo de regressão logístico podemos
+escrever essa probabilidade como
+
+  
+![p = \\frac{e^{X\\beta}}{1 +
+e^{X\\beta}},](https://latex.codecogs.com/png.latex?p%20%3D%20%5Cfrac%7Be%5E%7BX%5Cbeta%7D%7D%7B1%20%2B%20e%5E%7BX%5Cbeta%7D%7D%2C
+"p = \\frac{e^{X\\beta}}{1 + e^{X\\beta}},")  
+
+em que colocamos na matriz de planejamento X nossas variáveis
+preditivas. Nosso interesse é estimar o vetor
+![\\beta](https://latex.codecogs.com/png.latex?%5Cbeta "\\beta") segundo
+a nossa amostra de 100 músicas. Antes de estimar o modelo, podemos
+checar se as variáveis preditoras (após uma padronização dos seus
+valores) possuem algum tipo de correlação alta entre si, fazendo por
+exemplo:
 
 ``` r
 variaveis_preditoras <- todas_musicas %>% 
@@ -162,16 +175,18 @@ variaveis_preditoras <- todas_musicas %>%
 corrplot::corrplot(cor(variaveis_preditoras))
 ```
 
-![](/assets/images/unnamed-chunk-8-1.png)
+![](spotify_post_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 A análise do gráfico anterior nos mostra que a variável
 `escore_sonoridade` e `escore_energia` tem uma correlação alta. Apesar
-disso, vamos manter as duas variáveis na matrix de planejamento *X*,
-porém nos atentaremos às estimativas do modelo. Para estimação dos
-parâmetros do modelo vamos considerar a inferência bayesiana, através do
-pacote `rstanarm`. Para a definição das nossas crenças a priori sobre o
-vetor de parâmetros *β*, consideramos uma distribuição t-Student com 7
-graus de liberdade, conforme discussão feita
+disso, vamos manter as duas variáveis na matriz de planejamento
+![X](https://latex.codecogs.com/png.latex?X "X"), porém nos atentaremos
+às estimativas do modelo. Para estimação dos parâmetros do modelo vamos
+considerar a inferência bayesiana, através do pacote `rstanarm`. Para a
+definição das nossas crenças a priori sobre o vetor de parâmetros
+![\\beta](https://latex.codecogs.com/png.latex?%5Cbeta "\\beta"),
+consideramos uma distribuição t-Student com 7 graus de liberdade,
+conforme discussão feita
 [aqui](https://avehtari.github.io/modelselection/diabetes.html).
 
 ``` r
@@ -196,10 +211,11 @@ parâmetros, fazendo
 plot(modelo, "areas", prob = 0.95, prob_outer = 1)
 ```
 
-![](/assets/images/unnamed-chunk-10-1.png)
+![](spotify_post_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
 
 E se quisermos as estimativas pontuais e também os respectivos
-intervalos de credibilidade, podemos utilizar o seguinte:
+intervalos de credibilidade, podemos utilizar o
+    seguinte:
 
 ``` r
 coef(modelo)
@@ -230,11 +246,11 @@ posterior_interval(modelo, prob = 0.95)
 Tendo em vista os intervalos de credibilidade, diríamos que os
 parâmetros associados às covariáveis `escore_danca`, `escore_energia` e
 `duracao_ms` contribuem positivamente para a razão de chances entre
-músicas mais positivas e menos positivas, conforme aumentamos os valores
-dessas variáveis. Esse é um aspecto do modelo logístico, em que podemos
-interpretar os valores dos parâmetros obtidos. Nesse caso diríamos que
-quanto maior os valores dessas variáveis maior a chance de observamos
-uma música positiva.
+músicas mais positivas e menos positivas, conforme aumentamos os
+valores dessas variáveis. Esse é um aspecto do modelo logístico, em que
+podemos interpretar os valores dos parâmetros obtidos. Nesse caso
+diríamos que quanto maior os valores dessas variáveis maior a chance de
+observamos uma música positiva.
 
 Agora, tendo em vista que fixamos o valor intermediário igual a 0.5,
 podemos variar esse valor e verificar se nossa inferência com relação
@@ -286,7 +302,7 @@ g + geom_line(aes(y = coef)) +
   xlab("Quantis de valencia") + ylab("Coeficientes e intervalo de credibilidade de 95%")
 ```
 
-![](/assets/images/unnamed-chunk-13-1.png)
+![](spotify_post_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
 
 O resultado mostra no gráfico acima é interessante pois mostra que
 independente da escolha que fizéssemos pra o ponto de corte, quando
@@ -371,18 +387,18 @@ top_10 <- musicas_dia_faxina %>%
 knitr::kable(top_10)
 ```
 
-| artist\_full                         | tracks                                               |  probabilidades|
-|:-------------------------------------|:-----------------------------------------------------|---------------:|
-| Seu Jorge                            | Amiga Da Minha Mulher                                |       0.9702526|
-| Henrique & Diego feat. Dennis DJ     | Malbec (Part. Dennis Dj) (feat. Dennis DJ) - Ao Vivo |       0.9135900|
-| Gloria Groove                        | Coisa Boa                                            |       0.8702021|
-| Thiaguinho feat. Ludmilla            | Só Vem! - Ao Vivo                                    |       0.8378998|
-| IZA feat. Rincon Sapiência           | Ginga (Participação especial de Rincon Sapiência)    |       0.8274471|
-| POCAH                                | Não sou obrigada                                     |       0.8250744|
-| MC Loma e As Gêmeas Lacração         | Envolvimento                                         |       0.8221154|
-| Atitude 67                           | Cerveja De Garrafa (Fumaça Que Eu Faço) - Ao Vivo    |       0.8194855|
-| Maiara & Maraisa                     | 10% - Ao Vivo                                        |       0.8141347|
-| Nego do Borel feat. Maiara & Maraisa | Esqueci Como Namora (feat. Maiara & Maraisa)         |       0.8104371|
+| artist\_full                         | tracks                                               | probabilidades |
+| :----------------------------------- | :--------------------------------------------------- | -------------: |
+| Seu Jorge                            | Amiga Da Minha Mulher                                |      0.9662976 |
+| Henrique & Diego feat. Dennis DJ     | Malbec (Part. Dennis Dj) (feat. Dennis DJ) - Ao Vivo |      0.9099829 |
+| Gloria Groove                        | Coisa Boa                                            |      0.8615282 |
+| MC Guime feat. Emicida               | País do Futebol                                      |      0.8377319 |
+| IZA feat. Rincon Sapiência           | Ginga (Participação especial de Rincon Sapiência)    |      0.8164211 |
+| Atitude 67                           | Cerveja De Garrafa (Fumaça Que Eu Faço) - Ao Vivo    |      0.8137753 |
+| Maiara & Maraisa                     | 10% - Ao Vivo                                        |      0.8119093 |
+| POCAH                                | Não sou obrigada                                     |      0.8080835 |
+| MC Loma e As Gêmeas Lacração         | Envolvimento                                         |      0.8029371 |
+| Nego do Borel feat. Maiara & Maraisa | Esqueci Como Namora (feat. Maiara & Maraisa)         |      0.7906094 |
 
 Essas seriam então as dez músicas com maiores probabilidades segundo o
 modelo construído anteriormente. Poderíamos fazer algumas perguntas pra
