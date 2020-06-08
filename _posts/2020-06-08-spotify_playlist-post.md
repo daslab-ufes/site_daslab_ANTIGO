@@ -108,7 +108,7 @@ ggplot(todas_musicas) + theme_minimal() +
   geom_density(aes(x = valencia), adjust = 1/3) 
 ```
 
-![](spotify_post_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](assets/images/unnamed-chunk-6-1.png)<!-- -->
 
 Tendo em vista a dificuldade de se modelar a variabilidade dessa
 variável resposta, embora existam opções como a regressão beta, i.e.,
@@ -175,7 +175,7 @@ variaveis_preditoras <- todas_musicas %>%
 corrplot::corrplot(cor(variaveis_preditoras))
 ```
 
-![](spotify_post_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](assets/images/unnamed-chunk-8-1.png)<!-- -->
 
 A análise do gráfico anterior nos mostra que a variável
 `escore_sonoridade` e `escore_energia` tem uma correlação alta. Apesar
@@ -211,7 +211,7 @@ parâmetros, fazendo
 plot(modelo, "areas", prob = 0.95, prob_outer = 1)
 ```
 
-![](spotify_post_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![](assets/images/unnamed-chunk-10-1.png)<!-- -->
 
 E se quisermos as estimativas pontuais e também os respectivos
 intervalos de credibilidade, podemos utilizar o
@@ -302,7 +302,7 @@ g + geom_line(aes(y = coef)) +
   xlab("Quantis de valencia") + ylab("Coeficientes e intervalo de credibilidade de 95%")
 ```
 
-![](spotify_post_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](assets/images/unnamed-chunk-13-1.png)<!-- -->
 
 O resultado mostra no gráfico acima é interessante pois mostra que
 independente da escolha que fizéssemos pra o ponto de corte, quando
