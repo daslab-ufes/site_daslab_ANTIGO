@@ -141,21 +141,17 @@ nos ater a um modelo explicável. Essa escolha é simplesmente por
 simplificação do problema, embora em uma oportunidade futura podemos
 rever essa escolha. Temos então nossa variável resposta, *Y*,
 
-$$
-Y = \\begin{cases}
+$$Y = \\begin{cases}
 1, & \\mbox{se a música é mais positiva}, \\\\
 0, & \\mbox{caso contrário}.
-    \\end{cases}
-$$
+    \\end{cases}$$
 
 Dizemos aqui que a música é classificada como mais positiva porque
 fizemos essa quebra no valor hipótetico 0,5, inicialmente. Supomos que
 *P*(*Y* = 1) = *p* e utilizando o modelo de regressão logístico podemos
 escrever essa probabilidade como
 
-$$
-p = \\frac{e^{X\\beta}}{1 + e^{X\\beta}}, 
-$$
+$$p = \\frac{e^{X\\beta}}{1 + e^{X\\beta}},$$
  em que colocamos na nossa matriz de planejamento X nossas variáveis
 preditivas. Nosso interesse é estimar o vetor *β* segundo a nossa
 amostra de 100 músicas. Antes de estimar o modelo, podemos checar se as
