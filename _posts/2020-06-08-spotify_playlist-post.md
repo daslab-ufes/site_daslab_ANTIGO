@@ -35,7 +35,6 @@ Vamos considerar os seguintes pacotes para essa análise.
 ``` r
 library(Rspotify)
 library(dplyr)
-# library(httr)
 library(ggplot2)
 library(rstanarm)
 ```
