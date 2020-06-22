@@ -124,10 +124,10 @@ ggplot(todas_musicas) + theme_minimal() +
 Tendo em vista a dificuldade de se modelar a variabilidade dessa
 variável resposta, embora existam opções como a regressão beta, i.e.,
 quando assumimos que a variável resposta tem distribuição beta, vamos
-considerar uma simplificação do problema. Ao invés de modelar essa
+considerar uma simplificação do problema. Em vez de modelar essa
 variável em sua escala contínua, iremos considerar uma categorização
 dessa variável, em que criamos uma variável dicotômica, em que separamos
-as observações entre aquelas com valor maior ou menor que 0.5, valor que
+as observações entre aquelas com valor maior ou menor que 0,5, valor que
 está bastante próximo da mediana dos dados.
 
 ``` r
@@ -189,8 +189,8 @@ corrplot::corrplot(cor(variaveis_preditoras))
 
 ![](/assets/images/unnamed-chunk-8-1.png)<!-- -->
 
-A análise do gráfico anterior nos mostra que a variável
-`escore_sonoridade` e `escore_energia` tem uma correlação alta. Apesar
+A análise do gráfico anterior nos mostra que as variáveis
+`escore_sonoridade` e `escore_energia` têm uma correlação alta. Apesar
 disso, vamos manter as duas variáveis na matriz de planejamento
 ![X](https://latex.codecogs.com/png.latex?X "X"), porém nos atentaremos
 às estimativas do modelo.
@@ -267,7 +267,7 @@ parâmetros associados às covariáveis `escore_danca`, `escore_energia` e
 `escore_acustica` contribuem positivamente para a razão de chances entre
 músicas mais positivas e menos positivas, conforme aumentamos os valores
 dessas variáveis. Esse é um aspecto do modelo logístico, em que podemos
-interpretar os valores dos parâmetros obtidos. Nesse caso diríamos que
+interpretar os valores dos parâmetros obtidos. Nesse caso, diríamos que
 quanto maior os valores dessas variáveis maior a chance de observamos
 uma música positiva.
 
@@ -379,7 +379,7 @@ consultas usando a respectiva API.
 ## Informações adicionais
 
 Com relação à escolha do valor intermediário em que fixamos o valor
-igual a 0.5, podemos variar essa quantidade e verificar se nossa
+igual a 0,5, podemos variar essa quantidade e verificar se nossa
 inferência com relação aos parâmetros se altera. Para isso, podemos
 utilizar os quantis da variável `valencia` conforme:
 
@@ -430,7 +430,7 @@ g + geom_line(aes(y = coef)) +
 
 ![](/assets/images/unnamed-chunk-15-1.png)<!-- -->
 
-O resultado mostra no gráfico acima é interessante pois mostra que
+O resultado mostrado no gráfico acima é interessante pois mostra que
 independente da escolha que fizéssemos pra o ponto de corte, quando
 criamos a variável categórica, teríamos obtido as mesmas estimativas
 praticamente, com exceção de alguns valores mais extremos dos quantis.
