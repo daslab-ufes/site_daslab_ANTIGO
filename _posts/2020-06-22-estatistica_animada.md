@@ -1,7 +1,9 @@
-Usando animações para entender conceitos estatísticos: o passeio
-aleatório do Pacman
-================
-Bruno Santos
+---
+layout: single
+title:  "Usando animações para entender conceitos estatísticos: o passeio
+aleatório do Pacman"
+author: Bruno Santos
+---
 
 Para diversos conceitos estatísticos, em muitos casos é importante fazer
 um gráfico para ilustrar a ideia que gostaríamos de passar. Para
