@@ -166,7 +166,7 @@ aumenta-se em média o valor do tempo de incubação. Suponha também
 que a incerteza sobre a variável tempo de incubação possa ser descrita 
 por uma distribuição normal, logo a seguinte ilustração poderia ser feita.
 
-![](anim9.gif)
+![](/assets/images/anim9.gif)
 
 A reta representada é construída através das médias condicionais de cada
 uma das distribuições, conforme suposição no modelo de regressão linear.
