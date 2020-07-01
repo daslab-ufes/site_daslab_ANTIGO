@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Analisando o melhor canal do YouTube"
-author: Agatha Sacramento Rodrigues
+author: Agatha Rodrigues
 ---
 
 O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião desta que aqui escreve. De acordo com a descrição do próprio [canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw), o Meteoro é um canal sobre cultura pop, ciência e filosofia. Mas eu diria que é mais que isso. A Mulher Mais Sábia e o Cara Mais Simples, donos do canal, conectam esses temas de maneira brilhante e com bastante sensibilidade. Para exemplificar meu ponto, dentre muitos vídeos ótimos do canal, destaco o vídeo [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos desse cara mais pra frente), e o vídeo [Tentando Lidar com as Circunstâncias](https://www.youtube.com/watch?v=31gvTYL8U38). Sobre este último, apenas deixo como um pequeno *spoiler* um trecho do poema de Rainer Maria Rilke: "Deixe tudo acontecer com você: beleza e terror. Apenas continue. Nenhum sentimento é final" (uma lembrança para uma amiga muito especial).
