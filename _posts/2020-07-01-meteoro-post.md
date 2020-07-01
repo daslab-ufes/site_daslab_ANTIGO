@@ -116,7 +116,7 @@ video_aux %>%
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/Num_videos.png)<!-- -->
+![](/assets/images/Num_videos.png)<!-- -->
 
 Agora, quero saber quantos vídeos foram publicados no período de janeiro a maio de cada ano. Como em 2017 só teve vídeo a partir de abril, esse ano não entrará nessa análise. 
 
@@ -157,7 +157,7 @@ ggplot(aes(x = data, y = Nvisua)) +
   theme(legend.position="bottom") +
   scale_color_discrete(name="")
 ```
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/visua.png)<!-- -->
+![](/assets/images/visua.png)<!-- -->
 
 Ao analisar o gráfico acima e com a ajuda dos códigos apresentados abaixo, observamos que 11 vídeos  acumulam mais de 500 mil visualizações e há 2 vídeos que apresentam mais de 1 milhão de visualizações. O vídeo mais visto do canal é ["Decifrando This is America"](https://www.youtube.com/watch?v=gvsQ09wM-bU), em que exploram as mensagens contidas no clipe "This is America" de Childish Gambino. O vídeo foi publicado em maio de 2018 e tem 1507086 visualizações acumuladas desde então. 
 
@@ -239,7 +239,7 @@ videostats %>%
   labs(x = "Data da publicação", y = "Visualizações/Idade") +
   scale_x_date(date_breaks="5 months",date_labels = "%b %y") 
 ```
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/visua_idade.png)<!-- -->
+![](/assets/images/visua_idade.png)<!-- -->
 
 Uma próxima análise que gostaria de avaliar é o número de likes relativo ao número de visualizações. No gráfico abaixo está a porcentagem de likes pela data da publicação do vídeo.  
 
@@ -253,7 +253,7 @@ videostats %>%
   scale_y_continuous(labels = scales::percent,limits =c(0,0.3))
 ```
 
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/prop_like.png)<!-- -->
+![](/assets/images/prop_like.png)<!-- -->
 
 O video com maior porcentagem de likes (28,75\%) é episódio 10 da série [Capivara Carteira](https://www.youtube.com/watch?v=-fDHDUH0Fjk). Nesse episódio, o Cara Mais Simples faz uma homenagem para a Mulher Mais Sábia no dia de seu aniversário. Mas alguém pode dizer: "Para que tanto like relativo em um vídeo de homenagem?". Eu me arrisco a afirmar que esta é uma homenagem com a cara do Meteoro, novamente com sensibilidade, sinceridade e poesia, e talvez isso justifique o *feedback* positivo daqueles que assistiram.
 <!--e o com menor porcentagem de likes é "Raul Seixas, o teólogo", que
@@ -284,7 +284,7 @@ videostats %>%
   scale_x_date(date_breaks="5 months",date_labels = "%b %y") 
 ```
 
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/like_dislike.png)<!-- -->
+![](/assets/images/like_dislike.png)<!-- -->
 
 Uma primeira observação que destaco é o fato de não ter nenhuma razão menor que 1, indicando que os vídeos do canal sempre tem mais likes que dislikes. O canal com a menor razão like/dislike é o vídeo [ELENÃO](https://www.youtube.com/watch?v=J7yZMlb8ruo) (likes/dislikes=1,87), que aborda o movimento #elenão, formado por mulheres indo às ruas para expressar a rejeição para o então candidato e atual presidente (infelizmente) Bolsonaro. Faz um certo sentido pensar que o vídeo com a menor razão de likes/dislikes ser algum que incorpora a questão política, uma vez que estamos em uma situação de bastante polarização no país. 
 
@@ -306,7 +306,7 @@ videostats %>%
   geom_line() +
   labs(x = "Data da publicação", y = "Número de comentários") 
 ```
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/comentarios.png)
+![](/assets/images/comentarios.png)
 
 O vídeo com maior número de comentários é [Quem é Olavo de Carvalho?](https://www.youtube.com/watch?v=Mz9f3fLks9s), com um total de 25971 comentários. Eu fortemente recomendo esse vídeo e para justificar minha recomendação, vou colocar aqui a sua descrição: 
 
@@ -362,7 +362,7 @@ p6 <- videostats %>%
 (p1 | p2 |p3 ) / (p4 | p5 | p6 )
 ```
 
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/graficos_dispersao.png)<!-- -->
+![](/assets/images/graficos_dispersao.png)<!-- -->
 
 
 ```r
@@ -370,7 +370,7 @@ videos_aux <- videostats %>%
   select(Nvisua,Nlikes,Ndislikes,Ncomentarios)
 corrplot.mixed(cor(videos_aux))
 ```
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/corr_plot.png)<!-- -->
+![](/assets/images/corr_plot.png)<!-- -->
 
 A partir daqui, quero falar do meu vídeo favorito no canal: [Revelando Belchior](https://www.youtube.com/watch?v=u_2biKBWO0I). O fato de falar sobre Belchior auxilia bastante nesse favoritismo. Além disso, eles fazem uma análise de duas músicas do artista que eu particularmente adoro: "Como Nossos Pais" e "Velha Roupa Colorida", também interpretadas pela maravilhosa Elis Regina, relacionando seus versos com temas do Brasil atual. 
 
@@ -407,7 +407,7 @@ df %>%
     labs(x = "Data da publicação", y = "Número de comentários") +
     scale_x_date(date_breaks="15 days",date_labels = "%d %b") 
 ```
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/Comentarios_Belchior.png)<!-- -->
+![](/assets/images/Comentarios_Belchior.png)<!-- -->
 
 Agora gostaria de construir uma nuvem de palavras contidas nos comentários do vídeo. 
 
@@ -431,13 +431,13 @@ pal2 <- brewer.pal(8,"Dark2")
 wordcloud(words$palavras, words$n, random.order = FALSE, random.color = TRUE,rot.per = 0.3,colors=pal2)
 ```
 
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/nuvem_belchior.png)<!-- -->
+![](/assets/images/nuvem_belchior.png)<!-- -->
 
 
   De maneira análoga, fiz também a nuvem de palavras obtida pelos comentários do vídeo da música "AmarElo" do Emicida ([Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA)), citado no início desse **post**, que contém versos da música "Sujeito de Sorte" do Belchior.  
 
 
-![](C:/Users/agath/Google Drive/DaSLab/YouTube/tuber/assets/images/nuvem_emicida.png)<!-- -->
+![](/assets/images/nuvem_emicida.png)<!-- -->
 
   Bom, com esse **post** espero ter alcançado alguns objetivos:
   
