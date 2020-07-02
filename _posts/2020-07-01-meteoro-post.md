@@ -111,7 +111,7 @@ video_aux$date <- factor(video_aux$date,levels = c("17-abr", "17-jun", "17-jul",
                                                    "20-abr", "20-mai", "20-jun"))
 video_aux %>%
   ggplot(aes(x = date, y = quant_videos)) +
-  geom_point(color = 'black') +
+  geom_col(color = 'black') +
   labs(x = "Ano e mês", y = "Número de videos") +
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
@@ -433,7 +433,7 @@ wordcloud(words$palavras, words$n, random.order = FALSE, random.color = TRUE,rot
 
 ![](/assets/images/nuvem_belchior.png)<!-- -->
 
-Condicionando aos critérios do código acima para a criação da nuvem, a palavra de maior tamanho é a mais frequente, no caso é "Belchior", e assim por diante.
+Condicionado aos critérios definidos no código acima, a palavra mais frequente nos comentários (no caso é "Belchior") é a de maior tamanho na nuvem de palavras e assim por diante.
 
 
   De maneira análoga, fiz também a nuvem de palavras obtida pelos comentários do vídeo da música "AmarElo" do Emicida ([Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA)), citado no início desse **post**, que contém versos da música "Sujeito de Sorte" do Belchior.  
@@ -448,5 +448,6 @@ Condicionando aos critérios do código acima para a criação da nuvem, a palav
 2) Divulgar a maravilha que é o canal **Meteoro Brasil** ([clique aqui para acessar o canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw));
 
 3) Falar sobre o Belchior, apresentando o artista para aqueles que talvez não o conheça e, com isso, deixar sempre viva a sua obra.
+
 
 
