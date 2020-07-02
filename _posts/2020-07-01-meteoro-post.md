@@ -4,15 +4,15 @@ title:  "Analisando o melhor canal do YouTube"
 author: Agatha Rodrigues
 ---
 
-O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião desta que aqui escreve. De acordo com a descrição do próprio [canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw), o Meteoro é um canal sobre cultura pop, ciência e filosofia. Mas eu diria que é mais que isso. A Mulher Mais Sábia e o Cara Mais Simples, donos do canal, conectam esses temas de maneira brilhante e com bastante sensibilidade. Para exemplificar meu ponto, dentre muitos vídeos ótimos do canal, destaco o vídeo [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos desse cara mais pra frente), e o vídeo [Tentando Lidar com as Circunstâncias](https://www.youtube.com/watch?v=31gvTYL8U38). Sobre este último, apenas deixo como um pequeno *spoiler* um trecho do poema de Rainer Maria Rilke: "Deixe tudo acontecer com você: beleza e terror. Apenas continue. Nenhum sentimento é final" (uma lembrança para uma amiga muito especial).
+O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião desta que aqui escreve. De acordo com a descrição do próprio [canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw), o Meteoro é um canal sobre cultura pop, ciência e filosofia. Mas eu diria que é mais que isso. A Mulher Mais Sábia e o Cara Mais Simples (donos do canal) conectam esses temas de maneira brilhante e com bastante sensibilidade. Para exemplificar meu ponto, dentre muitos vídeos ótimos do canal, destaco o vídeo [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos mais desse cara mais pra frente), e o vídeo [Tentando Lidar com as Circunstâncias](https://www.youtube.com/watch?v=31gvTYL8U38). Sobre este último, apenas deixo como um pequeno *spoiler* um trecho do poema de Rainer Maria Rilke: "Deixe tudo acontecer com você: beleza e terror. Apenas continue. Nenhum sentimento é final" (uma lembrança para uma amiga muito especial).
 
 <!--Eles tem um lema que gosto bastante: "Não importa o que eu acho, importa o que eu sei!". -->
 
-Nesse **post**, vamos analisar alguns números do canal com o [R](https://www.r-project.org/), apresentando os vídeos que se destacam em algumas estatísticas. Para isso, vamos utilizar  o pacote do R **tuber** que permite acessar a API do YouTube para ter acesso a diversos dados de um canal ou vídeo específico,  como o número de visualizações, número de likes (curtidas), número de dislikes e comentários de vídeos.
+Nesse **post**, vamos analisar alguns números do canal com o [R](https://www.r-project.org/), apresentando os vídeos que se destacam em algumas estatísticas. Para isso, vamos utilizar  o pacote [tuber](https://cran.r-project.org/web/packages/tuber/tuber.pdf), que permite acessar a API do YouTube para ter acesso a diversos dados de um canal ou vídeo específico,  como o número de visualizações, número de likes (curtidas), número de dislikes e comentários de vídeos.
 
 Antes de tudo, precisamos instalar o pacote. Podemos fazer isso por meio do comando `install.packages("tuber")` ou então obtendo pelo GitHub do autor do pacote `devtools::install_github("soodoku/tuber", build_vignettes = TRUE)`.
 
-A segunda tarefa consiste em obter o `app_id` e `app_secret` do console de desenvolvimento da Google. Para isso, clique [aqui](console.developers.google.com) para seguir as orientações e, para ter mais informações, clique neste [link](https://developers.google.com/youtube/v3). Se a tarefa de obter esses códigos de acesso não for muito tranquila, posso criar um **post** separado explicando como obtê-los.  
+A segunda tarefa consiste em obter o `app_id` e `app_secret` do console de desenvolvimento da Google. Para isso, clique [aqui](console.developers.google.com) e siga as orientações de configuração e, para ter mais informações, clique neste [link](https://developers.google.com/youtube/v3). Se a tarefa de obter esses códigos de acesso não for muito tranquila, posso criar um post separado explicando como obtê-los.  
 
 Com os códigos de acesso devidamente obtidos, o próximo passo é rodar o o código abaixo:
 
@@ -26,13 +26,13 @@ Agora precisamos saber o *id* do canal para ter as informações disponíveis so
 ``` r
 yt_search(term = "Meteoro Brasil")
 ```
-Com o comando acima, descobrimos que o *id* do canal é `UCk5BcU1rOy6hepflk7_q_Pw`. Nesse momento, quero saber as estatísticas gerais do canal e utilizo para isso a função `get_channel_stats` do pacote **tuber**. 
+Com o comando acima, descobrimos que o *id* do canal é `UCk5BcU1rOy6hepflk7_q_Pw`. Nesse momento, quero saber as estatísticas gerais do canal e utilizo para isso a função `get_channel_stats` do pacote [tuber](https://cran.r-project.org/web/packages/tuber/tuber.pdf). 
 
 ``` r
 get_channel_stats("UCk5BcU1rOy6hepflk7_q_Pw")
 ```
 
-A data da realização das análises do canal é 27 de junho de 2020 e todos os números apresentados nesse **post** são relativos a essa data. Nessa data, o canal apresenta um total de 83043689 visualizações e 813000 inscritos. 
+A data da realização das análises é 27 de junho de 2020 e todos os números apresentados nesse post são relativos a essa data. O canal apresenta um total de 83043689 visualizações e 813000 inscritos. 
 
 Para a manipulação dos vídeos do canal e organizar suas informações em um banco de dados, vamos usar os seguintes pacotes:
 
@@ -76,7 +76,7 @@ videostats <-   videostats %>% mutate(Nvisua = as.numeric(as.character(viewCount
                 select(id, titulo, data, Nvisua, Nlikes, Ndislikes, Ncomentarios) 
 
 ```
-O dataframe `videostats` tem 6 colunas (id, titulo, data, Nvisua, Nlikes, Ndislikes, Ncomentarios) e 487 linhas, cada uma referente a um vídeo do canal. Logo, na data da presente análise, o canal tem 487 vídeos. 
+O dataframe `videostats` tem 7 colunas (id, titulo, data, Nvisua, Nlikes, Ndislikes, Ncomentarios) e 487 linhas, cada uma referente a um vídeo do canal. Logo, na data da presente análise, o canal tem 487 vídeos. 
 
 Para nos familiarizarmos com as variávies na base de dados `videostats`, uma primeira informação que gostaria de saber é sobre o primeiro vídeo publicado no canal. Para isso, podemos usar o comando
 
@@ -116,9 +116,9 @@ video_aux %>%
   theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
 ```
 
-![](/assets/images/Num_videos.png)<!-- -->
+![](/assets/images/Num_videos_bar.png)<!-- -->
 
-Agora, quero saber quantos vídeos foram publicados no período de janeiro a maio de cada ano. Como em 2017 só teve vídeo a partir de abril, esse ano não entrará nessa análise. 
+Podemos perceber uma crescente no número de vídeos publicados nos meses mais recentes e maio de 2020 é o mês com mais vídeos publicados. Também quero saber quantos vídeos foram publicados no período de janeiro a maio de cada ano. Como em 2017 só teve vídeo a partir de abril, esse ano não entrará nessa análise. 
 
 ```r
 videostats %>% 
@@ -139,7 +139,7 @@ videostats %>%
     ##3  2020          134
     
 <!--Como resultado, no período de janeiro a maio, foram 41 vídeos publicados em 2018, em 2019 foram 55, e em 2020, o total de número publicados é de 134 vídeos. Ou seja, -->
-Em 2020 o número de vídeos publicados representa 326\% e 243\% dos vídeos publicados em 2018 e 2019, respectivamente, para o mesmo período observado, corroborando a minha impressão. 
+Em 2020 o número de vídeos publicados representa 326% e 243% dos vídeos publicados em 2018 e 2019, respectivamente, para o mesmo período observado, corroborando também a minha impressão. 
 
 
 Agora, gostaria de avaliar o número de visualizações pela data da publicação do vídeo. Para isso, analisamos o seguinte gráfico:
@@ -312,7 +312,7 @@ O vídeo com maior número de comentários é [Quem é Olavo de Carvalho?](https
 
 > Olavo de Carvalho, antes de se definir como o "parteiro da nova direita", foi militante de esquerda e astrólogo. Aqui, olhamos para a biografia contraditória e controversa desse personagem, na tentativa de entender como ele conseguiu transformar suas ficções em realidade.
 
-Vale um parênteses aqui de algo que lembrei agora: o Meteoro Brasil lançou o livro **Tudo o que você precisou desaprender para virar um idiota**. Esse livro explica a ficção e da realidade por trás de kit gay, marxismo cultural, gramscismo, Lei Rouanet, mudança climática, Paulo Freire, globalismo, vacinas e muito mais (frase retirada do resumo no site da [Amazon](https://www.amazon.com.br/Tudo-precisou-desaprender-virar-idiota/dp/8542217756/ref=asc_df_8542217756/?tag=googleshopp00-20&linkCode=df0&hvadid=379792431986&hvpos=&hvnetw=g&hvrand=4496352622355239333&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001549&hvtargid=pla-850164298977&psc=1)). Ok, talvez meu parênteses sobre esse livro estar nesse texto no bloco que falo sobre Olavo de Carvalho não seja apenas uma coincidência...
+Vale um parênteses aqui de algo que lembrei agora: o Meteoro Brasil lançou o livro **Tudo o que você precisou desaprender para virar um idiota**. Esse livro explica a ficção e da realidade por trás de kit gay, marxismo cultural, gramscismo, Lei Rouanet, mudança climática, Paulo Freire, globalismo, vacinas e muito mais (frase retirada do resumo no site da [Amazon](https://www.amazon.com.br/Tudo-precisou-desaprender-virar-idiota/dp/8542217756/ref=asc_df_8542217756/?tag=googleshopp00-20&linkCode=df0&hvadid=379792431986&hvpos=&hvnetw=g&hvrand=4496352622355239333&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001549&hvtargid=pla-850164298977&psc=1)). Ok, talvez meu parênteses sobre esse livro estar na parte do texto que falo sobre Olavo de Carvalho não seja apenas uma coincidência...
 
 
 ```r
@@ -324,7 +324,7 @@ videostats %>%
     ##       56 Mz9f3fLks9s QUEM É OLAVO DE CARVALHO? #meteoro.doc 2018-11-30 1025781 111184     37366        25971   
 
 
- Agora, uma análise que gostaria de realizar é a correlação entre os números de visualizações, likes, dislikes e comentários dos vídeos. Pelos gráficos abaixo, observamos que há uma correlação bastante positiva entre número de visualizações e número de likes, assim como entre o número de dislikes e o número de comentários.
+ Agora, uma análise que gostaria de realizar é a correlação entre os números de visualizações, likes, dislikes e comentários dos vídeos. Pelos gráficos abaixo, observamos que há uma correlação bastante positiva entre número de visualizações e número de likes, assim como entre o número de dislikes e o número de comentários. Refiz a mesma análise sem os pontos muito discrepantes e os resultados foram bem parecidos. 
 
 
 ```r
@@ -421,7 +421,7 @@ coment_texto <- tibble(text = Reduce(c, oi)) %>%
   mutate(texto = str_to_lower(text)) %>%
   select(texto) 
 
-remove <- c("voce","voces","o","a","os","as","que","muito","este","esta","aquele","aquela",       "sao","para","de","nao","com","mais","foi","era","uma","mas","ficou","meu","minha",             "seu","sua","como","apenas","essa","esse","por","favor","sempre","todo","para",             "tem","faz","pelo","sobre","acho","isso","aqui","quando","mesmo","fala","morando",           "minha","proximo","proxima","pra","sei","dos","das","fazer","ver","cada","desse","tipo",           "ter","tambem","fiquei","num","seus","tinha","vez","ainda","vai","agora","desde","deste","sou",           "anos","agr","tava","sera","ate","poe","muita","vcs","outras","fizeram","conheco","feito","nos","coisa","quanto","todas",          "suas","poderia", "seja","pode","tanto","dessa","fez","tao","tudo","vou","ficaria","foi","pela","teu","video","sobre","ser",         "ele","acima","canal","todos","meio","dar","trabalho","achei","sem","nas","falando","dele","talvez","chegou","parar","paulo","olho","olho")
+remove <- c("voce","voces","o","a","os","as","que","muito","este","esta","aquele","aquela","sao","para","de","nao","com","mais","foi","era","uma","mas","ficou","meu","minha","seu","sua","como","apenas","essa","esse","por","favor","sempre","todo","para","tem","faz","pelo","sobre","acho","isso","aqui","quando","mesmo","fala","morando","minha","proximo","proxima","pra","sei","dos","das","fazer","ver","cada","desse","tipo","ter","tambem","fiquei","num","seus","tinha","vez","ainda","vai","agora","desde","deste","sou","anos","agr","tava","sera","ate","poe","muita","vcs","outras","fizeram","conheco","feito","nos","coisa","quanto","todas","suas","poderia","seja","pode","tanto","dessa","fez","tao","tudo","vou","ficaria","foi","pela","teu","video","sobre","ser","ele","acima","canal","todos","meio","dar","trabalho","achei","sem","nas","falando","dele","talvez","chegou","parar","paulo","olho","olho")
          
 words <-  tibble(palavras = Reduce(c, stri_extract_all_words(coment_texto$texto))) %>%
   group_by(palavras) %>% count() %>% arrange(desc(n)) %>% filter(nchar(palavras) >= 3) %>%
@@ -432,6 +432,8 @@ wordcloud(words$palavras, words$n, random.order = FALSE, random.color = TRUE,rot
 ```
 
 ![](/assets/images/nuvem_belchior.png)<!-- -->
+
+Condicionando aos critérios do código acima para a criação da nuvem, a palavra de maior tamanho é a mais frequente, no caso é "Belchior", e assim por diante.
 
 
   De maneira análoga, fiz também a nuvem de palavras obtida pelos comentários do vídeo da música "AmarElo" do Emicida ([Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA)), citado no início desse **post**, que contém versos da música "Sujeito de Sorte" do Belchior.  
