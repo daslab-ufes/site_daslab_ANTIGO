@@ -4,7 +4,9 @@ title:  "Analisando o melhor canal do YouTube"
 author: Agatha Rodrigues
 ---
 
-O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião desta que aqui escreve. De acordo com a descrição do próprio [canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw), o Meteoro é um canal sobre cultura pop, ciência e filosofia. Mas eu diria que é mais que isso. A Mulher Mais Sábia e o Cara Mais Simples (donos do canal) conectam esses temas de maneira brilhante e com bastante sensibilidade. Para exemplificar meu ponto, dentre muitos vídeos ótimos do canal, destaco dois vídeos. O primeiro é o [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos mais desse cara mais pra frente). 
+O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião desta que aqui escreve. De acordo com a descrição do próprio [canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw), o Meteoro é um canal sobre cultura pop, ciência e filosofia. Mas eu diria que é mais que isso. A Mulher Mais Sábia e o Cara Mais Simples (donos do canal) conectam esses temas de maneira brilhante e com bastante sensibilidade. Para exemplificar meu ponto, dentre muitos vídeos ótimos do canal, destaco dois vídeos. 
+
+O primeiro é o [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos desse cara mais pra frente). 
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4y411GG_pfA/0.jpg)](https://www.youtube.com/watch?v=4y411GG_pfA)
 
@@ -173,6 +175,8 @@ ggplot(aes(x = data, y = Nvisua)) +
 
 Ao analisar o gráfico acima e com a ajuda dos códigos apresentados abaixo, observamos que 11 vídeos  acumulam mais de 500 mil visualizações e há 2 vídeos que apresentam mais de 1 milhão de visualizações. O vídeo mais visto do canal é ["Decifrando This is America"](https://www.youtube.com/watch?v=gvsQ09wM-bU), em que exploram as mensagens contidas no clipe "This is America" de Childish Gambino. O vídeo foi publicado em maio de 2018 e tem 1507086 visualizações acumuladas desde então. 
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gvsQ09wM-bU/0.jpg)](https://www.youtube.com/watch?v=gvsQ09wM-bU)
+
 <!--Vale ressaltar que nem são os canais mais velhos, que teriam a vantagem de mais tempo para serem vistos, e nem os mais recentes, que tem a vantagem de ter mais inscritos. -->
 
 ``` r
@@ -284,6 +288,8 @@ videostats %>%
 <!-- #            id                              titulo       data Nvisua Nlikes Ndislikes Ncomentarios  prop_like
 #215 yD6q4n7d6FQ RAUL SEIXAS, O TEÓLOGO #meteoro.doc 2019-05-25 806161  33927       882         1490 0.04208465-->
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/-fDHDUH0Fjk/0.jpg)](https://www.youtube.com/watch?v=-fDHDUH0Fjk)
+
 
 Gostaria agora de analisar também o número de dislikes dos vídeos. Para isso, fiz um gráfico da razão entre likes e dislikes dos vídeos pela data de publicação do vídeo.  
 
@@ -310,6 +316,8 @@ videostats %>%
     ##     131 J7yZMlb8ruo #ELENÃO #meteoro.exp 2018-09-30 132199  21003     11230        14605 
     
     
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/J7yZMlb8ruo/0.jpg)](https://www.youtube.com/watch?v=J7yZMlb8ruo)
+  
 Para analisar o número de comentários nos vídeos, faço agora um gráfico dessa variável pela data de publicação do vídeo, apresentado no que segue:
 
 ```r
@@ -335,6 +343,7 @@ videostats %>%
     ##      id                                 titulo       data  Nvisua Nlikes Ndislikes Ncomentarios
     ##       56 Mz9f3fLks9s QUEM É OLAVO DE CARVALHO? #meteoro.doc 2018-11-30 1025781 111184     37366        25971   
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Mz9f3fLks9s/0.jpg)](https://www.youtube.com/watch?v=Mz9f3fLks9s)
 
  Agora, uma análise que gostaria de realizar é a correlação entre os números de visualizações, likes, dislikes e comentários dos vídeos. Pelos gráficos abaixo, observamos que há uma correlação bastante positiva entre número de visualizações e número de likes, assim como entre o número de dislikes e o número de comentários. Refiz a mesma análise sem os pontos muito discrepantes e os resultados foram bem parecidos. 
 
@@ -386,7 +395,7 @@ corrplot.mixed(cor(videos_aux))
 
 A partir daqui, quero falar do meu vídeo favorito no canal: [Revelando Belchior](https://www.youtube.com/watch?v=u_2biKBWO0I). O fato de falar sobre Belchior auxilia bastante nesse favoritismo. Além disso, eles fazem uma análise de duas músicas do artista que eu particularmente adoro: "Como Nossos Pais" e "Velha Roupa Colorida", também interpretadas pela maravilhosa Elis Regina, relacionando seus versos com temas do Brasil atual. 
 
-{% include video id="u_2biKBWO0I" provider="youtube" %}
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/u_2biKBWO0I/0.jpg)](https://www.youtube.com/watch?v=u_2biKBWO0I)
 
 Desse vídeo, vamos analisar seus comentários e para isso, precisamos saber o seu *id*. 
 ```r
