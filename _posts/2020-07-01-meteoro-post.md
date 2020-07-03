@@ -12,11 +12,11 @@ O primeiro é o vídeo [Emicida Celebra Você](https://www.youtube.com/watch?v=4
 
 O segundo vídeo é o [Tentando Lidar com as Circunstâncias](https://www.youtube.com/watch?v=31gvTYL8U38). Sobre este, apenas deixo como um pequeno *spoiler* um trecho do poema de Rainer Maria Rilke: 
 
-> "Deixe tudo acontecer com você: beleza e terror. <br>
+> Deixe tudo acontecer com você: beleza e terror. <br>
 > Apenas continue. <br>
-> Nenhum sentimento é final"<br>
+> Nenhum sentimento é final<br>
 
-(uma lembrança para uma amiga muito especial).
+(uma lembrança para uma amiga muito especial)
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/31gvTYL8U38/0.jpg)](https://www.youtube.com/watch?v=31gvTYL8U38)
 
@@ -175,9 +175,7 @@ ggplot(aes(x = data, y = Nvisua)) +
 ```
 ![](/assets/images/visua.png)<!-- -->
 
-Ao analisar o gráfico acima e com a ajuda dos códigos apresentados abaixo, observamos que 11 vídeos  acumulam mais de 500 mil visualizações e há 2 vídeos que apresentam mais de 1 milhão de visualizações. O vídeo mais visto do canal é ["Decifrando This is America"](https://www.youtube.com/watch?v=gvsQ09wM-bU), em que exploram as mensagens contidas no clipe "This is America" de Childish Gambino. O vídeo foi publicado em maio de 2018 e tem 1507086 visualizações acumuladas desde então. 
-
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gvsQ09wM-bU/0.jpg)](https://www.youtube.com/watch?v=gvsQ09wM-bU)
+Ao analisar o gráfico acima e com a ajuda dos códigos apresentados abaixo, observamos que 11 vídeos  acumulam mais de 500 mil visualizações e há 2 vídeos que apresentam mais de 1 milhão de visualizações. 
 
 <!--Vale ressaltar que nem são os canais mais velhos, que teriam a vantagem de mais tempo para serem vistos, e nem os mais recentes, que tem a vantagem de ter mais inscritos. -->
 
@@ -213,6 +211,7 @@ videostats %>%
     ##  1 DECIFRANDO THIS IS AMERICA #meteoro.doc
     ##  2  QUEM É OLAVO DE CARVALHO? #meteoro.doc
 
+O vídeo mais visto do canal é ["Decifrando This is America"](https://www.youtube.com/watch?v=gvsQ09wM-bU), em que exploram as mensagens contidas no clipe "This is America" de Childish Gambino. O vídeo foi publicado em maio de 2018 e tem 1507086 visualizações acumuladas desde então. 
 
 ``` r
 # titulo dos vídeos com mais de 500 mil visualizações
@@ -222,6 +221,8 @@ videostats %>%
 
     ##       id                                  titulo       data  Nvisua Nlikes Ndislikes Ncomentarios
     ##  gvsQ09wM-bU DECIFRANDO THIS IS AMERICA #meteoro.doc 2018-05-08 1507086 128120      1630         2943
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gvsQ09wM-bU/0.jpg)](https://www.youtube.com/watch?v=gvsQ09wM-bU)
 
 O canal apresenta, em média, 151720 visualizações por vídeo, com um desvio padrão de 130611 visualizações, como podemos ver por meio de algumas medidas descritivas do número de visualizações abaixo:
 
@@ -273,7 +274,7 @@ videostats %>%
 
 ![](/assets/images/prop_like.png)<!-- -->
 
-O video com maior porcentagem de likes (28,75\%) é episódio 10 da série [Capivara Carteira](https://www.youtube.com/watch?v=-fDHDUH0Fjk). Nesse episódio, o Cara Mais Simples faz uma homenagem para a Mulher Mais Sábia no dia de seu aniversário. Mas alguém pode dizer: "Para que tanto like relativo em um vídeo de homenagem?". Eu me arrisco a afirmar que esta é uma homenagem com a cara do Meteoro, novamente com sensibilidade, sinceridade e poesia, e talvez isso justifique o *feedback* positivo daqueles que assistiram.
+O video com maior porcentagem de likes (28,75%) é episódio 10 da série [Capivara Carteira](https://www.youtube.com/watch?v=-fDHDUH0Fjk). Nesse episódio, o Cara Mais Simples faz uma homenagem para a Mulher Mais Sábia no dia de seu aniversário. Mas alguém pode dizer: "Para que tanto like relativo em um vídeo de homenagem?". Eu me arrisco a afirmar que esta é uma homenagem com a cara do Meteoro, novamente com sensibilidade, sinceridade e poesia, e talvez isso justifique o *feedback* positivo daqueles que assistiram.
 <!--e o com menor porcentagem de likes é "Raul Seixas, o teólogo", que
 fala sobre a obra prima Gita de Raul Seixas e Paulo Coelho. -->
 
