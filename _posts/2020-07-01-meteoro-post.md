@@ -16,7 +16,7 @@ O segundo vídeo é o [Tentando Lidar com as Circunstâncias](https://www.youtub
 > Apenas continue. <br>
 > Nenhum sentimento é final<br>
 
-(uma lembrança para uma amiga muito especial)
+(uma lembrança para uma amiga muito especial).
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/31gvTYL8U38/0.jpg)](https://www.youtube.com/watch?v=31gvTYL8U38)
 
