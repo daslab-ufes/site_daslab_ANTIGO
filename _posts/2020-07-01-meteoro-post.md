@@ -8,9 +8,14 @@ O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião dest
 
 > "Deixe tudo acontecer com você: beleza e terror. <br>
 > Apenas continue. <br>
-> Nenhum sentimento é final".<br>
+> Nenhum sentimento é final"<br>
 
 (uma lembrança para uma amiga muito especial).
+
+
+{% include video id="4y411GG_pfA" provider="youtube" %}
+
+{% include video id="31gvTYL8U38" provider="youtube" %}
 
 <!--Eles tem um lema que gosto bastante: "Não importa o que eu acho, importa o que eu sei!". -->
 
@@ -379,6 +384,8 @@ corrplot.mixed(cor(videos_aux))
 ![](/assets/images/corr_plot.png)<!-- -->
 
 A partir daqui, quero falar do meu vídeo favorito no canal: [Revelando Belchior](https://www.youtube.com/watch?v=u_2biKBWO0I). O fato de falar sobre Belchior auxilia bastante nesse favoritismo. Além disso, eles fazem uma análise de duas músicas do artista que eu particularmente adoro: "Como Nossos Pais" e "Velha Roupa Colorida", também interpretadas pela maravilhosa Elis Regina, relacionando seus versos com temas do Brasil atual. 
+
+{% include video id="u_2biKBWO0I" provider="youtube" %}
 
 Desse vídeo, vamos analisar seus comentários e para isso, precisamos saber o seu *id*. 
 ```r
