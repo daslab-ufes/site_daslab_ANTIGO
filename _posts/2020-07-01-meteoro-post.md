@@ -95,6 +95,7 @@ O dataframe `videostats` tem 7 colunas (id, titulo, data, Nvisua, Nlikes, Ndisli
 Para nos familiarizarmos com as variávies na base de dados `videostats`, uma primeira informação que gostaria de saber é sobre o primeiro vídeo publicado no canal. Para isso, podemos usar o comando
 
 ```r
+# primeiro vídeo do canal
 videostats %>%
   filter(data==min(data)) 
 ```
@@ -180,7 +181,7 @@ Ao analisar o gráfico acima e com a ajuda dos códigos apresentados abaixo, obs
 <!--Vale ressaltar que nem são os canais mais velhos, que teriam a vantagem de mais tempo para serem vistos, e nem os mais recentes, que tem a vantagem de ter mais inscritos. -->
 
 ``` r
-## titulo dos vídeos com mais de 500 mil visualizações
+# títulos dos vídeos com mais de 500 mil visualizações
 videostats %>%
   filter(Nvisua>500000) %>%
   select(titulo)
@@ -201,7 +202,7 @@ videostats %>%
     
 
 ``` r
-## titulo dos vídeos com mais de 1 milhão de visualizações
+# títulos dos vídeos com mais de 1 milhão de visualizações
 videostats %>%
   filter(Nvisua>1000000) %>%
   select(titulo)
@@ -214,7 +215,7 @@ videostats %>%
 O vídeo mais visto do canal é ["Decifrando This is America"](https://www.youtube.com/watch?v=gvsQ09wM-bU), em que exploram as mensagens contidas no clipe "This is America" de Childish Gambino. O vídeo foi publicado em maio de 2018 e tem 1507086 visualizações acumuladas desde então. 
 
 ``` r
-# titulo dos vídeos com mais de 500 mil visualizações
+# vídeo com maior número de visualizações
 videostats %>%
   filter(Nvisua==max(Nvisua)) 
 ```
@@ -227,7 +228,7 @@ videostats %>%
 O canal apresenta, em média, 151720 visualizações por vídeo, com um desvio padrão de 130611 visualizações, como podemos ver por meio de algumas medidas descritivas do número de visualizações abaixo:
 
 ``` r
-#medidas descritivas do número de visualizações
+# medidas descritivas do número de visualizações
 videostats %>% 
   summarise(
     min=min(Nvisua,na.rm=TRUE),
@@ -279,7 +280,7 @@ O video com maior porcentagem de likes (28,75%) é episódio 10 da série [Capiv
 fala sobre a obra prima Gita de Raul Seixas e Paulo Coelho. -->
 
 ``` r
-# titulo com maior número de likes relativo ao número de visualizações
+# vídeo com maior número de likes relativo ao número de visualizações
 videostats %>%
   mutate(prop_like = Nlikes/Nvisua) %>%
   filter(prop_like ==max(prop_like )) 
@@ -310,6 +311,7 @@ videostats %>%
 Uma primeira observação que destaco é o fato de não ter nenhuma razão menor que 1, indicando que os vídeos do canal sempre tem mais likes que dislikes. O canal com a menor razão like/dislike é o vídeo [ELENÃO](https://www.youtube.com/watch?v=J7yZMlb8ruo) (likes/dislikes=1,87), que aborda o movimento #elenão, formado por mulheres indo às ruas para expressar a rejeição para o então candidato e atual presidente (infelizmente) Bolsonaro. Faz um certo sentido pensar que o vídeo com a menor razão de likes/dislikes ser algum que incorpora a questão política, uma vez que estamos em uma situação de bastante polarização no país. 
 
 ```r
+# vídeo com menor razão de like e dislike
 videostats %>%
   mutate(like_dislike = Nlikes/Ndislikes) %>%
   filter(like_dislike == min(like_dislike))
@@ -339,6 +341,7 @@ Vale um parênteses aqui de algo que lembrei agora: o Meteoro Brasil lançou o l
 
 
 ```r
+# vídeo com maior número de comentários
 videostats %>%
    filter(Ncomentarios == max(Ncomentarios))
 ```
