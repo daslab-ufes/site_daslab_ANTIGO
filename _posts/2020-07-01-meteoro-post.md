@@ -12,6 +12,7 @@ O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião dest
 
 (uma lembrança para uma amiga muito especial).
 
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/4y411GG_pfA)
 
 {% include video id="4y411GG_pfA" provider="youtube" %}
 
