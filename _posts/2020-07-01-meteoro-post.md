@@ -6,7 +6,7 @@ author: Agatha Rodrigues
 
 O canal **Meteoro Brasil** é o melhor canal do YouTube, segundo a opinião desta que aqui escreve. De acordo com a descrição do próprio [canal](https://www.youtube.com/channel/UCk5BcU1rOy6hepflk7_q_Pw), o Meteoro é um canal sobre cultura pop, ciência e filosofia. Mas eu diria que é mais que isso. A Mulher Mais Sábia e o Cara Mais Simples (donos do canal) conectam esses temas de maneira brilhante e com bastante sensibilidade. Para exemplificar meu ponto, dentre muitos vídeos ótimos do canal, destaco dois vídeos. 
 
-O primeiro é o [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos desse cara mais pra frente). 
+O primeiro é o vídeo [Emicida Celebra Você](https://www.youtube.com/watch?v=4y411GG_pfA), que analisa a poderosa música "AmarElo" do Emicida e a presença nela dos versos potentes de Belchior (falaremos desse cara mais pra frente). 
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4y411GG_pfA/0.jpg)](https://www.youtube.com/watch?v=4y411GG_pfA)
 
@@ -104,6 +104,8 @@ Como saída, temos:
     ##  DVpC21wJ4qo Steven Universe, sexualidade e estupro - Meteoro 2017-04-10 206544  30434       976         1198
 
 Com isso, sabemos que o primeiro vídeo foi publicado no dia 10 de abril de 2017 e desde então acumulou 206544 visualizações, com 30434 likes, 976 dislikes e 1198 comentários. Este foi um vídeo sobre o desenho animado [Steven Universe](https://www.youtube.com/watch?v=DVpC21wJ4qo), em que discutem as metáforas do desenho que aborda, de maneira sutil, questões de gênero e até violência sexual. Como todo início de canal no YouTube, percebemos que muito foi melhorado desde então, principalmente as questões técnicas, mas ali já dava para perceber a sensibilidade ao analisar a cultura pop além da superfície.
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DVpC21wJ4qo/0.jpg)](https://www.youtube.com/watch?v=DVpC21wJ4qo)
 
 Uma impressão que tenho como fã assídua do canal é que ele tem publicado mais vídeos no ano de 2020. Para avaliar se minha impressão faz algum sentido, fiz uma análise do número de vídeos publicados por mês desde a inauguração do canal até o mês atual da análise. 
 
