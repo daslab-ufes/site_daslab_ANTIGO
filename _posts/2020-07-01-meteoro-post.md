@@ -356,35 +356,20 @@ videostats %>%
 
 ```r
 # gráficos de dispersão
-p1 <- videostats %>%
-  ggplot(aes(x = Nvisua, y = Nlikes)) +
-  geom_point(color = 'black') +
-  labs(x = "nº de visualizações", y = "nº de likes") 
-
-p2 <- videostats %>%
-  ggplot(aes(x = Nvisua, y = Ndislikes)) +
-  geom_point(color = 'black') +
-  labs(x = "nº de visualizações", y = "nº de dislikes") 
-
-p3 <- videostats %>%
-  ggplot(aes(x = Nvisua, y = Ncomentarios)) +
-  geom_point(color = 'black') +
-  labs(x = "nº de visualizações", y = "nº de comentários") 
-
-p4 <- videostats %>%
-  ggplot(aes(x = Nlikes, y = Ncomentarios)) +
-  geom_point(color = 'black') +
-  labs(x = "nº de likes", y = "nº de comentários") 
-
-p5 <- videostats %>%
-  ggplot(aes(x = Ndislikes, y = Ncomentarios)) +
-  geom_point(color = 'black') +
-  labs(x = "nº de dislikes", y = "nº de comentários") 
-
-p6 <- videostats %>%
-  ggplot(aes(x = Ndislikes, y = Nlikes)) +
-  geom_point(color = 'black') +
-  labs(x = "nº de dislikes", y = "nº de likes") 
+variaveis <- c('Nvisua',"Nlikes","Ndislikes","Ncomentarios")
+ variaveis.labels <- c("nº de visualizações","nº de likes","nº de dislikes","nº de comentários")
+ l <- 1
+ for(i in 1:(length(variaveis)-1)){
+   for(j in (i+1):length(variaveis)) {
+      p <- videostats %>% 
+       select(xvar=variaveis[i],yvar=variaveis[j]) %>%
+       ggplot(aes(x = xvar, y = yvar)) +
+        geom_point(color = 'black') +
+        labs(x = variaveis.labels[i], y = variaveis.labels[j]) 
+      assign(paste("p",l,sep=""),p)
+      l <- l+1
+   }
+ }
 
 (p1 | p2 |p3 ) / (p4 | p5 | p6 )
 ```
@@ -478,5 +463,5 @@ Condicionado aos critérios definidos no código acima, a palavra mais frequente
 
 3) Falar sobre o Belchior, apresentando o artista para aqueles que talvez não o conheça e, com isso, deixar sempre viva a sua obra.
 
-
+Bom, é isso! Agora você pode considerar os códigos em R para analisar as estatísticas do seu canal favorito do YouTube, mas só se você quiser. =)
 
