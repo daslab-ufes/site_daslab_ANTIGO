@@ -374,7 +374,7 @@ variaveis <- c('Nvisua',"Nlikes","Ndislikes","Ncomentarios")
 (p1 | p2 |p3 ) / (p4 | p5 | p6 )
 ```
 
-![](/assets/images/graficos_dispersao.png)<!-- -->
+![](/assets/images/graficos_dispersao1.png)<!-- -->
 
 
 ```r
