@@ -10,5 +10,7 @@ main:
     url: /projetos/
   - title: "Eventos"
     url: /eventos/
+  - title: "Materiais"
+    url: /materiais/
   - title: "Contato"
     url: /contatos/

@@ -3,7 +3,7 @@ permalink: /coordenacao/
 layout: splash
 ---
 
-## ![](agatha.png) Prof. Dra. Agatha Sacramento Rodrigues 
+## ![](/assets/images/agatha.png) Prof. Dra. Agatha Sacramento Rodrigues 
 
 A produção bibliográfica completa da Prof. Agatha pode ser acessada no [Currículo Lattes](http://lattes.cnpq.br/3445977720574534). Além da produção científica, destaca-se a organização de eventos na área de Ciência de Dados, como o [#meetingdata](http://www.datascience.ufscar.br/meetingdata/index.php) em 2018  e o 1º Workshop on Data Science and Statistical Learning [(WDDSSL)](https://sites.google.com/view/wdssl2019/home) em 2019 , em que neste a prof. Agatha foi a presidente da comissão organizadora. 
 
