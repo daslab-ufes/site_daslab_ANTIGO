@@ -83,7 +83,7 @@ Além da análise descritiva, será considerada neste trabalho modelagem via té
 Estudos envolvendo dados de criminalidade fazendo uso de técnicas de machine learning já foram reportados em Berk (2012) e Berk (2013). Dessa forma, pretendemos desenvolver um algoritmo de classificação que permita a partir do perfil da vı́tima e de sua proximidade com o autor da violência identificar qual tipo de violência um adolescente está mais propenso a sofrer a partir de seu perfil.
 
 
-## Projeto: EnsinaR
+## Projeto: [EnsinaR](/ensinaR/)
 
 ### Coordenadora: Agatha Sacramento Rodrigues
 
