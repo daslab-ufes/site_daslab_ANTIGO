@@ -14,7 +14,7 @@ Esse projeto de extensão visa a divulgação, ensino e treinamento da comunidad
 
 - Arquivo PDF aqui
 
-- Do cronograma
+- Cronograma:
 
 | Ação | Data |
 | --- | --- |
