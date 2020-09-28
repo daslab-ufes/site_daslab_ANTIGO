@@ -7,7 +7,7 @@ layout: splash
 
 ### Edital para inscrição para bolsa
 
-- Arquivo PDF aqui
+- [Edital](/assets/files/edital-ensinaR-2020.pdf).
 
 - Cronograma:
 
