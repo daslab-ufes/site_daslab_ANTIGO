@@ -1,5 +1,5 @@
 ---
-permalink: /ensinaR/
+permalink: /ensinar/
 layout: splash
 ---
 
