@@ -22,3 +22,14 @@ layout: splash
 | Divulgação do resultado parcial | 7/10/2020 |
 | Interposição de recursos | 7/10/2020 | 
 | Divulgação do resultado final | 8/10/2020 |
+
+- Inscrições deferidas por ordem alfabética
+
+| Nome | 
+| --- | 
+| Flavia de Jesus dos Santos |
+| Júlia Gualberto |
+| Pedro de Brito Neto |
+
+
+
