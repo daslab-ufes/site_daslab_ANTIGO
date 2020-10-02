@@ -31,5 +31,8 @@ layout: splash
 | Júlia Gualberto |
 | Pedro de Brito Neto |
 
+- Link para amostra dos dados para usar na tarefa:
+
+  - [Arquivo CSV](/assets/files/dados_amostra.csv)
 
 
