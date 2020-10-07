@@ -34,5 +34,11 @@ layout: splash
 - Link para amostra dos dados para usar na tarefa:
 
   - [Arquivo CSV](/assets/files/dados_amostra.csv)
+  
+- Candidaturas aprovadas por ordem alfabética:
 
+| Nome | 
+| --- | 
+| Flavia de Jesus dos Santos |
+| Pedro de Brito Neto |
 
