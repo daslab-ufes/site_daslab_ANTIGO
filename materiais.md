@@ -2,6 +2,8 @@
 permalink: /materiais/
 layout: splash
 ---
+# Livro: Ciência de Dados aplicada à Saúde
+
 ## Responsável: Agatha Sacramento Rodrigues
 
 ### Arquivos:
@@ -10,3 +12,6 @@ layout: splash
 * [Tabulacao de Dados](/assets/files/Tabulacao-dados.pdf)
 * [Tipos de estudos](/assets/files/Tipos-de-estudos.pdf)
 
+### Bases de dados
+* [Dados gemelares](/assets/files/dados_gemelares.xlsx)
+* [Dados gemelares - depressão e amamentação](/assets/files/dados_gemelares_2.xlsx)
