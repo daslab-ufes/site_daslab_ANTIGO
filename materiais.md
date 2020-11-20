@@ -2,14 +2,17 @@
 permalink: /materiais/
 layout: splash
 ---
+# Livro: Ciência de Dados aplicada à Saúde
 
-## Curso: 
+## Responsável: Agatha Sacramento Rodrigues
 
-### Responsável: Agatha Sacramento Rodrigues
+### Arquivos:
 
-#### Arquivos:
-
-* [Instalacao R-Studio](/assets/files/Instalacao-R-RStudio.pdf)
-* [Medidas Descritivas](/assets/files/Medidas-descritivas.pdf)
+* [Instalacao R e RStudio](/assets/files/Instalacao-R-RStudio.pdf)
 * [Tabulacao de Dados](/assets/files/Tabulacao-dados.pdf)
-* [Graficos](/assets/files/Graficos.pdf)
+* [Tipos de estudos](/assets/files/Tipos-de-estudos.pdf)
+* [Inferência Estatística](/assets/files/Aula6_Introducao_Inferencia_IDOR.pdf)
+
+### Bases de dados
+* [Dados gemelares](/assets/files/dados_gemelares.xlsx)
+* [Dados gemelares - depressão e amamentação](/assets/files/dados_gemelares_2.xlsx)
