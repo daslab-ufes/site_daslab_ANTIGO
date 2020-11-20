@@ -21,3 +21,16 @@ Bruno Santos:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/brsantos86"
+
+
+Pedro de Brito Neto:
+  name        : "Pedro de Brito Neto"
+  bio         : "Aluno do Bacharelado em Estatística - UFES"
+  avatar      : "/assets/images/pedro.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:pedroneto@debrito.net"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://twitter.com/brsantos86"
