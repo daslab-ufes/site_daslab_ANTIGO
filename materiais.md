@@ -9,6 +9,6 @@ layout: splash
 
 ### Arquivos:
 
-* [Slides](/assets/files/R básico- slides.pdf)
+* [Slides](/assets/files/slides_rbasico.pdf)
 * [Programa R](/assets/files/AulaR.R)
 
