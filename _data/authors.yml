@@ -51,3 +51,11 @@ Gabriella Demarque:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gabriella.demarque@edu.ufes.br"
+      
+Flavia e Gabriela:
+  name        : "Flavia de Jesus e Gabriella Demarque"
+  bio         : "Alunas do Bacharelado em Estatística - UFES"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto: daslab.ufes@gmail.com"
