@@ -39,23 +39,15 @@ Pedro de Brito Neto:
 Flavia de Jesus:
   name        : "Flavia de Jesus"
   bio         : "Aluna do Bacharelado em Estatística - UFES"
-  avatar      : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:FlaviaJesusSantos@hotmail.com"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: ""
       
 Gabriella Demarque:
   name        : "Gabriella Demarque"
   bio         : "Aluna do Bacharelado em Estatística - UFES"
-  avatar      : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:gabriella.demarque@edu.ufes.br"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "":
