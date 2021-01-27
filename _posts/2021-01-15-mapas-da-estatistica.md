@@ -364,7 +364,7 @@ leaflet() %>%
             position = "bottomleft")
 ```
 
-<object class="leaflet html-widget" style="width:672px;height:480px;" data="/assets/files/graf_es.html"></object>
+<object class="leaflet html-widget" data="/assets/files/graf_es.html"></object>
 
 Agora podemos passar o cursor por cima dos municípios e descobrir, por
 exemplo, que o município com alta taxa de mortalidade se chama Ponto
