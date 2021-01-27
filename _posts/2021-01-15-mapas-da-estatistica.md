@@ -370,7 +370,6 @@ leaflet() %>%
 <p>&nbsp;</p><p>&nbsp;</p>
 <p>&nbsp;</p><p>&nbsp;</p>
 <p>&nbsp;</p><p>&nbsp;</p>
-<p>&nbsp;</p><p>&nbsp;</p>
 
 
 Agora podemos passar o cursor por cima dos municípios e descobrir, por
