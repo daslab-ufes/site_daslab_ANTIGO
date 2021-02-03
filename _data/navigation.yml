@@ -4,8 +4,6 @@ main:
     url: /sobre/
   - title: "Membros"
     url: /membros/
-  - title: "Coordenação"
-    url: /coordenacao/
   - title: "Projetos"
     url: /projetos/
   - title: "ensinaR"
