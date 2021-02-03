@@ -10,7 +10,5 @@ main:
     url: /ensinar/  
   - title: "Eventos"
     url: /eventos/
-  - title: "Materiais"
-    url: /materiais/
   - title: "Contato"
     url: /contatos/
