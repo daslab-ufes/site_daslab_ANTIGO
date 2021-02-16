@@ -91,8 +91,13 @@ grafico
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 O gráfico nos mostra, por exemplo, que o número de casos confirmados foi
 maior nas cidades de Vila Velha e Serra. Note que é possível adicionar
@@ -111,8 +116,13 @@ grafico %>%
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico1_1.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Outra opção é considerar um tema de lousa com fonte que imita a escrita
 utilizando giz fazendo
@@ -123,8 +133,13 @@ grafico %>%
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico1_2.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 A lista de temas disponíveis é bem grande, com opções bem interessantes.
 Ao longo do post, vamos sempre utilizar um tema diferentes. Vocês podem
@@ -163,8 +178,13 @@ grafico2
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico2.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Apenas para Vitória o número de casos entre pessoas brancas e pessoas
 parada é similar, enquanto nas outras cidades o número de casos de
@@ -197,8 +217,13 @@ grafico3
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico3.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Ainda sobre os dados da pandemia, poderíamos estar interessados em fazer
 gráficos de linha com o número de casos por dia por município e mostrar
@@ -234,8 +259,13 @@ grafico4
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico4.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Para facilitar a visualização, poderíamos considerar uma média móvel de
 7 dias, fazendo o seguinte.
@@ -283,6 +313,11 @@ grafico5
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_highcharter/grafico5.html">
 
 </object>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Veja como para as quatro cidades parece haver dois picos do número de
 casos. Podemos fazer o mesmo tipo de análise, porém considerando uma
@@ -317,7 +352,7 @@ dados_todos <- dados_filtrados %>%
   mutate(municipio = forcats::fct_drop(municipio))
 
 
-# Retirado de https://jkunst.com/highcharter/articles/showcase.html
+
 grafico6 <- hchart(
   dados_todos, 
   "heatmap", 
@@ -366,6 +401,12 @@ grafico6
 
 </object>
 
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
+
 O gráfico nos mostra que os picos das 4 cidades não ocorreram exatamente
 nos mesmos momentos, mas que parecem estar relacionados. Não foi
 possível melhorar o texto do eixo x de forma satisfatória para esse
@@ -382,6 +423,12 @@ grafico7
 <object class="html-widget" style="width:800px;height:720px;" data="/assets/files/post_highcharter/grafico7.html">
 
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Conforme falamos no início, esses gráficos para ter esse comportamento
 interativo precisam ser disponibilizados em formato `html`. Para fazer
