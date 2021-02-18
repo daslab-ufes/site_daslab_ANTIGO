@@ -8,6 +8,8 @@ main:
     url: /projetos/
   - title: "ensinaR"
     url: /ensinar/  
+  - title: "Observatório"
+    url: /observatorio/  
   - title: "Eventos"
     url: /eventos/
   - title: "Contato"
