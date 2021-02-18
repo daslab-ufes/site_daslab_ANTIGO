@@ -3,6 +3,15 @@ permalink: /projetos/
 layout: splash
 ---
 
+## Projeto: Observatório Obstétrico Brasileiro
+
+### Coordenadora: Agatha Sacramento Rodrigues
+
+O acesso à informação está previsto na Constituição Federal e na Declaração Universal dos Direitos Humanos. Em 2011 foi sancionada a Lei de Acesso à Informação Pública (Lei 12.527/2011) que regula o acesso a dados e informações detidas pelo governo. Dentro desse contexto, o Portal Brasileiro de Dados Abertos (PBDA) é a ferramenta que centraliza a busca e o acesso dos dados públicos. Segundo o PBDA, dados abertos é a publicação e disseminação dos dados e informações públicas de tal maneira que se permita acessar, entender e analisar. No entanto, dados sem tratamento e análise são apenas dados. Precisamos, então, analisar de maneira adequada para transformar dados em informação e permitir que esses dados tratados sejam acessı́veis à população de maneira dinâmica.
+
+A importância de permitir acesso a dados públicos de maneira estruturada e com responsabilidade faz com que a sociedade tenha acesso à informação, que gestores públicos possam tomar decisões baseadas em evidências e que as discussões sobre polı́ticas públicas sejam embasadas em dados confiáveis. 
+Por esse motivo, propomos a criação de um observatório obstétrico por meio de uma plataforma interativa com os dados disponı́veis (conceito de PaaS – Platform as a Service) pública e gratuita com utilização de ferramentas open source para análise e disseminação de grandes quantidades de dados da Obstetrı́cia do Brasil.
+
 ## Projeto: Métodos de aprendizado de máquinas aplicados ao desenvolvimento de curvas de crescimento fetal personalizadas para a população brasileira
 
 ### Coordenadora: Agatha Sacramento Rodrigues
@@ -31,20 +40,6 @@ Como objetivos especı́ficos, são listados:
 
 #### Referência 
 Hadlock, F. P., Deter, R. L., Harrist, R. B., & Park, S. K. (1982). Fetal biparietal diameter: a critical re‐evaluation of the relation to menstrual age by means of real‐time ultrasound. Journal of ultrasound in Medicine, 1(3), 97-104.
-
-## Projeto: Observatório Obstétrico
-
-### Coordenadora: Agatha Sacramento Rodrigues
-
-O acesso à informação está previsto na Constituição Federal e na Declaração Universal dos Direitos Humanos. Em 2011 foi sancionada a Lei de Acesso à Informação Pública (Lei 12.527/2011) que regula o acesso a dados e informações detidas pelo governo. Dentro desse contexto, o Portal Brasileiro de Dados Abertos (PBDA) é a ferramenta que centraliza a busca e o acesso dos dados públicos. Segundo o PBDA, dados abertos é a publicação e disseminação dos dados e informações públicas de tal maneira que se permita acessar, entender e analisar. No entanto, dados sem tratamento e análise são apenas dados. Precisamos, então, analisar de maneira adequada para transformar dados em informação e permitir que esses dados tratados sejam acessı́veis à população de maneira dinâmica.
-
-A importância de permitir acesso a dados públicos de maneira estruturada e com responsabilidade faz com que a sociedade tenha acesso à informação, que gestores públicos possam tomar decisões baseadas em evidências e que as discussões sobre polı́ticas públicas sejam embasadas em dados confiáveis. Na área da Obstetrı́cia, em especial, há algumas discussões sobre polı́ticas públicas para gestantes, fetos e recém nascidos que, muitas vezes, não são pautadas em dados cientı́ficos ou análise de dados públicos.
-
-Como motivação, foi proposto o projeto de lei n o 17.137 / 2019 pela deputada estadual de São Paulo Janaı́na Paschoal, que garante à gestante a opcão pela cesárea no SUS (Sistema Único de Saúde), na hora do parto e sem indicação clı́nica, a partir da 39 a semana da gestação. Em seu projeto de lei, disponı́vel em [link](www.al.sp.gov.br/propositura/?id=1000262934), a proponente diz que “muitos são os casos em que, graças à submissão ao parto normal, o concepto vem a sofrer anóxia (falta de oxigênio), ficando sequelado para o resto da vida, em virtude da popularmente chamada paralisia cerebral. Nas situações mais graves, a anóxia leva à morte do bebê, seja dentro do ventre materno, seja alguns dias após o nascimento”.
-
-Por outro lado, a SOGESP (Associação de Obstetrı́cia e Ginecologia de São Paulo) diz que o projeto não tem base em evidências cientı́ficas e que pode estimular taxas indiscriminadas de cesáreas, que trazem riscos à mulher e ao bebê. Ainda, “não há evidência na literatura médica de que o parto normal esteja associado a um maior risco de paralisia cerebral. O aumento nas taxas de cesariana não muda a ocorrência de paralisia cerebral”, diz presidente da SOGESP, a professora da USP Rossana Francisco em reportagem disponı́vel em [link](https://www1.folha.uol.com.br/cotidiano/2019/08/projeto-que-permite-cesarea-sem-indicacao-no-sus-e-aprovado-em-sp.shtml). Além disso, não há dados sobre as taxas de paralisia cerebral no estado de São Paulo ou estudos que determinem se essa ocorrência é maior ou menor em hospitais públicos ou privados paulistas, em que cesáreas podem ser realizadas sem indicação clı́nica.
-
-Por esse motivo, propomos a criação de um observatório obstétrico por meio de uma plataforma iterativa com os dados disponı́veis (conceito de PaaS – Platform as a Service) pública e gratuita com utilização de ferramentas open source para análise e disseminação de grandes quantidades de dados da Obstetrı́cia do Brasil.
 
 
 ## Projeto: Modelos de Regressão Quantı́lica Bayesianos para Variáveis Resposta Multidimensionais
