@@ -39,6 +39,7 @@ Pedro de Brito Neto:
 Flavia de Jesus:
   name        : "Flavia de Jesus"
   bio         : "Aluna do Bacharelado em Estatística - UFES"
+  avatar      : "/assets/images/flavia.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
