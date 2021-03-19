@@ -75,8 +75,7 @@ ponto e vírgula.
 
 Repare que se não tendo criado um projeto e colocado o arquivo
 `dados1.cvs` dentro da pasta, seria necessário escrever o caminho
-completo onde o arquivo está no
-    computador.
+completo onde o arquivo está no computador.
 
 ``` r
 head(dados1)
@@ -89,6 +88,17 @@ head(dados1)
     ## 4   Nao                     Sim   Nao    Nao         Nao      Nao      Nao
     ## 5   Nao                     Nao   Nao    Nao         Nao      Nao      Nao
     ## 6   Nao                     Sim   Nao    Nao         Nao      Nao      Sim
+
+**Exportando dados**
+
+Neste pacote temos `write.table()` que é a principal função para
+exportar seus dados do R. Ela funciona para exportar arquivos em formato
+de texto simples .csv e .txt e usa basicamente os mesmos argumentos da
+função read.table().
+
+``` r
+write.table(mtcars, "exemplo1.csv")
+```
 
 ### `readr`
 
@@ -140,6 +150,26 @@ head(dados2)
     ## 5 Nao   Sim                     Nao   Nao    Nao         Nao      Sim     
     ## 6 Nao   Nao                     Nao   Nao    Nao         Nao      Nao
 
+**Exportando dados**
+
+`write_delim()` é a principal função do pacote `readr` para exportar um
+data.frame em formato de texto simples .csv, .txt e usa basicamente os
+mesmos argumentos da função `read_delim()`.
+
+Para utilizar os dados dos `data.frame`’s `diamonds` e `mpg` é
+necessário ter o pacote `ggplot2` instalado no R.
+
+``` r
+write_delim(diamonds, "exemplo2.txt")
+```
+
+Outra função para exportação de dados é a `write_csv()`, ela importa
+arquivos em formato .csv.
+
+``` r
+write_csv(mpg, "exemplo3.csv")
+```
+
 ### readxl
 
 O R não possui uma função nativa para importar dados do Excel, portanto
@@ -187,6 +217,15 @@ head(dados3)
     ## 5 Não   Sim                     Não   Não    Não         Não      Sim     
     ## 6 Não   Não                     Não   Não    Não         Não      Não
 
+**Exportando dados**
+
+Para importar dados para o Excel vamos utilizar o pacote `writexl`, ele
+possui a função `write_xlsx()` que exporta arquivos em formato xlsx.
+
+``` r
+write_xlsx(mpg, "exemplo4.xlsx")
+```
+
 ### `data.table`
 
 Este pacote fornece uma versão melhorada de `data.frame`s, bem como um
@@ -227,6 +266,17 @@ head(dados4)
     ## 5:   Nao                     Sim   Nao    Nao         Nao      Nao      Sim
     ## 6:   Nao                     Nao   Nao    Nao         Nao      Nao      Nao
 
+**Exportando dados**
+
+`fwrite()` é principal função do pacote data.table para exportar um
+data.frames em formato de texto simples .csv, .txt e usa basicamente os
+mesmos argumentos da função `read_delim()`.
+
+``` r
+fwrite(mtcars, "exemplo5.txt")
+```
+
+
 ### `haven`
 
 O R também é bastante flexível quanto à importação de dados de outros
@@ -264,6 +314,23 @@ head(dados5)
     ## 4 881.223.… Stacia De… 1997-12-25 F     Casado    sdeerr3@loc… (27) 9562… 08501…
     ## 5 161.145.… Samuele S… 1981-06-15 F     Solteiro  sseager4@gi… (88) 0908… 04302…
     ## 6 439.045.… Wilow Sim… 1990-12-05 F     Casado    wsimonitto5… (11) 6925… 78118…
+
+**Exportando dados**
+
+Este pacote possui três funções para exportar dados para o SAS, SPSS e
+Stata.
+
+``` r
+write_sas(mtcars, "exemplo7.sas7bdat")
+```
+
+``` r
+write_sav(mpg, "exemplo8.sav")
+```
+
+``` r
+write_dta(diamonds, "exemplo9.dta")
+```
 
 ### Importando dados da internet
 
@@ -307,6 +374,38 @@ head(indicadores)
     ## #   VIRTUALDELETE <chr>, COD_OPERADOR <chr>, DT_ALTERACAO <chr>,
     ## #   HR_ALTERACAO <chr>, CONCORRENCIA <chr>, ENDERECO_FISICO <chr>,
     ## #   CODIGOINDICADOR <chr>, CODIND <chr>
+
+### `arrow`
+
+**Importando dados**
+
+Este pacote permite trabalhar de forma eficiente com conjuntos de dados
+de tamanho massivo em vários formatos diferentes. Nesse pacote é
+possível importar arquivos de formato .csv, .tsv, .feather entre
+outros. Algumas de suas funções para importação são:
+
+  - `read_feather()`: Para ler arquivo em formato Feather.
+  - `read_parquet()`: Para ler arquivo Parquet.
+  - `read_delim_arrow()`: Para arquivos delimitados.
+  - `read_csv_arrow()`: Para ler arquivos em formato .csv.
+  - `read_tsv_arrow()`: Para ler arquivos em formato .tsv.
+  - `read_json_arrow()`: Para ler arquivo JSON.
+
+Não iremos entrar em detalhes sobre este pacote aqui, mas nesse
+[link](https://ursalabs.org/arrow-r-nightly/articles/dataset.html) vocês
+podem ver uma aplicação do pacote com uma base de dados com 37GB.
+
+**Exportando dados**
+
+Este pacote possui algumas funções de exportação de dados como:
+`write_feather()`, `write_ipc_stream()` e `write_arrow`, elas exportam
+dados em formato .csv, .txt e .feather.
+
+``` r
+write_feather(diamonds, "exemplo6.feather")
+```
+
+-----
 
 Esses foram apenas alguns dos diversos pacotes e funções que podemos
 utilizar para importar dados no R. Apesar de alguns pacotes apresentados
