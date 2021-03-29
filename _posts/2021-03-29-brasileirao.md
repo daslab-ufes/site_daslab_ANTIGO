@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Como criar gráficos interativos no R"
+title:  "Simulando campeões no Campeonato Brasileiro de 2020"
 author: Bruno Santos
 ---
 
