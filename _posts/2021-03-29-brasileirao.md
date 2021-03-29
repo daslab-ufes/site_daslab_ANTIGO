@@ -497,8 +497,13 @@ filter(tabelas_campeao, prob > 0.01) %>%
 ```
 
 <object class="html-widget" style="width:800px;height:480px;" data="/assets/files/post_simulacao/graf_prob.html">
-
 </object>
+
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p><p>&nbsp;</p>
+<p>&nbsp;</p>
 
 Podemos também considerar fazer uma animação tendo em vista o [post
 anterior sobre animações no
