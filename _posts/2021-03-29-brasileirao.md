@@ -54,14 +54,13 @@ basicamente de forma instantânea. A imagem abaixo foi retirada do site
 da [ESPN](https://www.espn.com/nba/game?gameId=401307468), entre
 Washington Wizards e New York Knicks, em que segundo esse site esportivo
 a probabilidade de vitória do time da capital era igual a 89,5% quando
-faltavam 3mim44s para o fim do terceiro quarto, ainda que os mesmos
-tenham saído derrotados ao final da
-partida.
+faltavam 3min44s para o fim do terceiro quarto, ainda que os mesmos
+tenham saído derrotados ao final da partida.
 
 <img src="/assets/files/post_simulacao/jogo_nba.png" width="1439" style="display: block; margin: auto;" />
 
 No Brasil, podemos citar o site
-[chancedegol.com.br/](https://www.chancedegol.com.br/) que calcula
+[chancedegol.com.br/](https://www.chancedegol.com.br/), que calcula
 probabilidades para diversos campeonatos de futebol no Brasil e no
 exterior também. Outro exemplo foi feito por pesquisadores do
 departamento de Estatística da UFBA, que criaram o site
@@ -456,7 +455,10 @@ Em seguida, podemos rodar o nosso programa considerando as datas que
 selecionamos anteriormente. Tendo em vista o maior tempo de
 processamento, vamos utilizar a função `mclapply` do pacote `parallel`
 para acelerar o processo. É importante mencionar aqui que tal função só
-está disponível em sistemas operacionais baseados em Unix.
+está disponível em sistemas operacionais baseados em Unix. Para Windows, eu 
+deixo aqui um [link](https://waterprogramming.wordpress.com/2020/03/16/parallel-processing-with-r-on-windows/) para quem quiser testar o pacote `doParallel`, que 
+parece apresentar as mesmas funcionalidades.
+
 
 ``` r
 # Esse programa pode demorar bastante tempo para ficar pronto. 
@@ -508,7 +510,7 @@ filter(tabelas_campeao, prob > 0.01) %>%
 Podemos também considerar fazer uma animação tendo em vista o [post
 anterior sobre animações no
 R](https://daslab-ufes.github.io/estatistica_animada/) para mostrar a
-variação ao longo do tempo. Considerando que dentro da minha `escudos/`
+variação ao longo do tempo. Considerando que dentro do meu diretório `escudos/`
 eu tenho todos os escudos dos times, organizados em ordem alfabética, eu
 posso usar isso na minha animação também.
 
@@ -543,7 +545,7 @@ O que é interessante na animação é que podemos verificar em que momento
 certos times não tinham mais probabilidade de ser campeões segundo o
 nosso modelo escolhido. Segundo nossas simulações, o Santos não poderia
 ser mais campeão a partir de dezembro, por exemplo. Isso não significa
-dizer que esses times não tnham mais possibilidade matemática de vencer
+dizer que esses times não tenham mais possibilidade matemática de vencer
 o campeonato naquele momento, mas sim considerando o modelo que acredita
 que os times vão anotar gols de acordo com a média de gols observada até
 aquele momento e considerando 10.000 simulações de tal modelo. Note
