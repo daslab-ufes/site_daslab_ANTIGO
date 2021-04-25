@@ -45,6 +45,15 @@ Flavia de Jesus:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:FlaviaJesusSantos@hotmail.com"
       
+Ornella Scardua:
+  name        : "Ornella Scardua"
+  bio         : "Aluna do Bacharelado em Estatística - UFES"
+  avatar      : "/assets/images/ornella.jpg"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/ornscar"
+      
 Gabriella Demarque:
   name        : "Gabriella Demarque"
   bio         : "Aluna do Bacharelado em Estatística - UFES"
