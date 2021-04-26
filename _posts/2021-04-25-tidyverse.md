@@ -4,8 +4,6 @@ title:  "Mergulhando no tidyverse"
 author: Pedro de Brito Neto
 ---
 
-# Introdução
-
 Na maioria dos trabalhos e análises que vamos fazer aqui no R, sempre
 precisamos de pacotes que nos auxiliem, seja um que facilite o
 tratamento de dados ou um que apenas deixa a estétíca de um gráfico um
