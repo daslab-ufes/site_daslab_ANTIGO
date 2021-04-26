@@ -57,7 +57,7 @@ onde mostramos diferentes maneiras de importar dados, inclusive usando o
 
 Para as análises, estou importando os dados com a função `read_excel` do
 pacote `readxl`. Para reprodução do post, os arquivos podem ser obtidos
-[aqui](censo.xlsx) e [aqui](estimado.xlsx).
+[aqui](/assets/images/post_tidyverse/censo.xlsx) e [aqui](/assets/images/post_tidyverse/estimado.xlsx).
 
 ``` r
 library(readxl)
