@@ -5,7 +5,7 @@ author: Pedro de Brito Neto
 ---
 
 Agora que já vimos os conceitos básicos do *ggplot* no [post
-anterior](https://daslab-ufes.github.io/github_intro/), vamos mostrar um
+anterior](https://daslab-ufes.github.io/ggplot2_intro/), vamos mostrar um
 pouco como você pode aprimorar o seu gráfico de algumas formas como, por
 exemplo, adicionar legendas, alterar cores, posições, etc. Para isso
 vamos trabalhar com os gráficos mais utilizados:
